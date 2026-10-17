@@ -1034,3 +1034,414 @@
 - Project: studiophoto-matthieu-17-october-2026; kind: rule. (17 October 2026, 17:04:26 +0200)
 
 > Dossiers de projet et TMP : le nom porte toujours la date en anglais, mois en toutes lettres (tmp-<nom>-17-october-2026). Les photos temporaires de Downloads sont déplacées dans Sources/ du projet. (17 October 2026) (17 October 2026, 17:04:26 +0200)
+
+## 17 October 2026, 17:06:52 +0200 : Iteration
+
+<!-- feedback-event:cbf4ca5ba4ea15c1921a44a0b4be84ed8f8be8730f610227eeaa7a2fd478c1e4 (17 October 2026, 17:06:52 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (17 October 2026, 17:06:52 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 17:06:52 +0200)
+
+> Je suis en train de lancer l'archive cloud (elle tourne encore). En parallèle, je charge le skill `zenray-website` pour changer la photo du site et le redéployer. (17 October 2026, 17:06:52 +0200)
+
+## 17 October 2026, 17:06:52 +0200 : Prompt
+
+<!-- feedback-event:207fb0d468e97498dc59fb4d86aa621fd94867e7a630344582bf314cbd7c0078 (17 October 2026, 17:06:52 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (17 October 2026, 17:06:52 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 17:06:52 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-website (17 October 2026, 17:06:52 +0200)
+>
+> # matthieuhuguet.com (17 October 2026, 17:06:52 +0200)
+>
+> React + Vite, dans `/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayWebsite`. (17 October 2026, 17:06:52 +0200)
+> Entièrement sur Cloudflare Pages (projet `matthieu-huguet`) depuis le 2026-08-20, Vercel débranché. (17 October 2026, 17:06:52 +0200)
+>
+> **Upload direct, jamais d'auto-déploiement Git.** Le projet Pages n'a aucune intégration GitHub, et c'est (17 October 2026, 17:06:52 +0200)
+> un choix : Matthieu pousse souvent sur `master` pour des raisons qui n'ont rien à voir avec une mise en (17 October 2026, 17:06:52 +0200)
+> ligne, et un build automatique à chaque push mangerait son quota pour rien. `git push` garde l'historique, (17 October 2026, 17:06:52 +0200)
+> il ne publie jamais seul. Ne pas proposer de brancher l'auto-déploiement sauf demande explicite. (17 October 2026, 17:06:52 +0200)
+>
+> ## La boucle de travail, dans cet ordre (17 October 2026, 17:06:52 +0200)
+>
+> Elle vaut pour tout : un article, un changement de police, un fond, une couleur. (17 October 2026, 17:06:52 +0200)
+>
+> ```bash (17 October 2026, 17:06:52 +0200)
+> cd /Users/zenray/Create/Build/Productions/GithubProductions/ZenRayWebsite (17 October 2026, 17:06:52 +0200)
+> npm run build (17 October 2026, 17:06:52 +0200)
+> ``` (17 October 2026, 17:06:52 +0200)
+>
+> Puis servir en local et regarder, **jamais deviner** : (17 October 2026, 17:06:52 +0200)
+>
+> ```bash (17 October 2026, 17:06:52 +0200)
+> # .claude/launch.json expose déjà « site-4100 » (node scripts/dev-server.mjs 4100) (17 October 2026, 17:06:52 +0200)
+> # via l'outil preview_start, à préférer à un lancement manuel (17 October 2026, 17:06:52 +0200)
+> ``` (17 October 2026, 17:06:52 +0200)
+>
+> Matthieu valide sur `http://localhost:4100`, on corrige, et seulement ensuite on déploie. (17 October 2026, 17:06:52 +0200)
+>
+> ## Itérer sur le design : curseurs en local, pas de mockup séparé (17 October 2026, 17:06:52 +0200)
+>
+> Décision du 2026-08-20 : pour un réglage visuel, **servir la vraie page en localhost avec un panneau de (17 October 2026, 17:06:52 +0200)
+> curseurs** va plus vite qu'un fichier de mockup à part, puisque le contexte réel (contenu, polices, (17 October 2026, 17:06:52 +0200)
+> composants) est déjà là. (17 October 2026, 17:06:52 +0200)
+>
+> C'est l'application de la loi HDA au moment du design, et elle est écrite en PRIORITÉ 0 dans (17 October 2026, 17:06:52 +0200)
+> `~/.claude/CLAUDE.md` : tout paramètre dont la bonne valeur se juge à l'œil (opacité, luminosité, flou, (17 October 2026, 17:06:52 +0200)
+> échelle, espacement, rayon, teinte, vitesse) sort en curseur, avec un bouton « Copier les valeurs pour le (17 October 2026, 17:06:52 +0200)
+> prompt ». Les curseurs n'écrivent **que** des variables CSS d'un `:root`, jamais un style sur un élément. (17 October 2026, 17:06:52 +0200)
+>
+> Trois règles qui ne se négocient pas : (17 October 2026, 17:06:52 +0200)
+>
+> 1. **Le panneau ne part jamais en production.** Il vit dans `Design/` ou derrière un garde explicite, et (17 October 2026, 17:06:52 +0200)
+>    se retire avant le déploiement. (17 October 2026, 17:06:52 +0200)
+> 2. **Un effet coûteux se cuit hors-ligne une fois la valeur trouvée.** Le curseur pilote un (17 October 2026, 17:06:52 +0200)
+>    `filter: blur()` pendant qu'on cherche ; en production, le flou est gravé dans l'asset par ImageMagick. (17 October 2026, 17:06:52 +0200)
+>    Ce qui est confortable pour l'artiste est ruineux pour le navigateur du visiteur. (17 October 2026, 17:06:52 +0200)
+> 3. **Les valeurs retenues migrent dans `src/theme.js`**, jamais en dur dans un composant. (17 October 2026, 17:06:52 +0200)
+>
+> Exemple complet et fonctionnel : `Design/font-mockup-hero-blur-bg.html` (curseurs flou / luminosité / (17 October 2026, 17:06:52 +0200)
+> opacité + bouton de copie), et sa cuisson `public/works-bg.webp`. (17 October 2026, 17:06:52 +0200)
+>
+> ## Ajouter un article (17 October 2026, 17:06:52 +0200)
+>
+> Chaîne complète, vérifiée : (17 October 2026, 17:06:52 +0200)
+>
+> 1. **Le JSON** dans `public/articles/<slug>.json`, avec obligatoirement `"schema": "article.public.v1"` (17 October 2026, 17:06:52 +0200)
+>    (sans lui, `loadArticle` renvoie `null` et la page affiche « Article introuvable »). (17 October 2026, 17:06:52 +0200)
+>    Blocs supportés : `paragraph`, `heading` (`props.level`), `bulletListItem`, `numberedListItem`, (17 October 2026, 17:06:52 +0200)
+>    `image` (`props.url`, `props.caption`), `video`, `videoPlaceholder`, `quote`, `codeBlock`. (17 October 2026, 17:06:52 +0200)
+>    Un `hero` optionnel : `{"type":"image","src":"...","alt":"..."}`. (17 October 2026, 17:06:52 +0200)
+> 2. **Les images** en WebP dans `public/projects/<slug>/`, **en 4K**. Voir la section dédiée juste en (17 October 2026, 17:06:52 +0200)
+>    dessous : la largeur cible est 3840 px, jamais moins de 2560, et la qualité 95. (17 October 2026, 17:06:52 +0200)
+>    ```bash (17 October 2026, 17:06:52 +0200)
+>    magick source.png -resize 3840x -strip -quality 95 -define webp:method=6 out.webp   # illustration (17 October 2026, 17:06:52 +0200)
+>    magick source.png -resize 2560x -strip -quality 90 -define webp:method=6 thumb.webp # vignette 16:9 (17 October 2026, 17:06:52 +0200)
+>    ``` (17 October 2026, 17:06:52 +0200)
+>    **Jamais de PNG ni d'AVIF dans `public/`** : le projet est WebP-only, décision de 2026-05-20 payée par (17 October 2026, 17:06:52 +0200)
+>    des images blanches silencieuses sur Safari. (17 October 2026, 17:06:52 +0200)
+> 3. **La carte** dans le tableau `PROJECTS` de `src/App.jsx`, avec `articleSlug`, `image` (la vignette), (17 October 2026, 17:06:52 +0200)
+>    et `hidden: true` pour rester dans son groupe sans polluer la grille « All ». (17 October 2026, 17:06:52 +0200)
+> 4. **Le groupe** : ajouter l'id à `GROUP_APP`, `GROUP_CODE_AUTOMATION` ou `GROUP_UX_UI`. L'ordre du (17 October 2026, 17:06:52 +0200)
+>    tableau est l'ordre d'affichage, **le plus récent en premier** (donc à gauche). (17 October 2026, 17:06:52 +0200)
+> 5. **`public/articles/index.json`** et **`public/sitemap.xml`** pour la cohérence. (17 October 2026, 17:06:52 +0200)
+>
+> ### LA QUALITÉ D'IMAGE VISE LE 4K, ET 2K EST UN PLANCHER (2026-08-29) (17 October 2026, 17:06:52 +0200)
+>
+> **Ses mots :** « quand tu mets des images dans les articles il faut que la qualité vise 4K, évidemment il (17 October 2026, 17:06:52 +0200)
+> faut que les images soient optimisées et rapides à afficher, mais 4K voire 2K si énormément d'images, (17 October 2026, 17:06:52 +0200)
+> c'est toujours le minimum ». (17 October 2026, 17:06:52 +0200)
+>
+> | Cas | Largeur | Qualité | (17 October 2026, 17:06:52 +0200)
+> |---|---|---| (17 October 2026, 17:06:52 +0200)
+> | Défaut, toute illustration d'article | **3840 px** | 95 | (17 October 2026, 17:06:52 +0200)
+> | Article à très nombreuses images, ou budget de page tendu | **2560 px**, jamais en dessous | 92 | (17 October 2026, 17:06:52 +0200)
+> | Vignette de carte | 2560 px | 90 | (17 October 2026, 17:06:52 +0200)
+>
+> Le réglage historique de ce skill, `-resize 1440x -quality 82`, est **périmé** : il a été écrit pour des (17 October 2026, 17:06:52 +0200)
+> photos, et il rend flou tout ce qui porte du texte, une interface ou une ligne fine. (17 October 2026, 17:06:52 +0200)
+>
+> **Le poids, mesuré et non supposé.** Sur `zenray-progress-design-01`, vingt-deux captures d'interface en (17 October 2026, 17:06:52 +0200)
+> 3840 px et qualité 95 pèsent **296 Ko en moyenne, 619 Ko au pire, 6,4 Mo pour l'article entier**. Le 4K ne (17 October 2026, 17:06:52 +0200)
+> coûte donc pas ce que l'intuition annonce, parce qu'une capture d'interface compresse bien mieux qu'une (17 October 2026, 17:06:52 +0200)
+> photographie. Sonder avant de renoncer à la résolution : (17 October 2026, 17:06:52 +0200)
+>
+> ```bash (17 October 2026, 17:06:52 +0200)
+> magick source.png -resize 3840x -strip -quality 95 -define webp:method=6 /tmp/sonde.webp (17 October 2026, 17:06:52 +0200)
+> ls -lh /tmp/sonde.webp (17 October 2026, 17:06:52 +0200)
+> ``` (17 October 2026, 17:06:52 +0200)
+>
+> **LA RÉSOLUTION NE SERT À RIEN SI LA PAGE L'ÉCRASE, et c'est l'erreur qui a coûté un aller-retour le (17 October 2026, 17:06:52 +0200)
+> 2026-08-29.** J'avais régénéré les assets en 3840 px et Matthieu voyait toujours du flou, à juste titre : (17 October 2026, 17:06:52 +0200)
+> les illustrations vivaient dans la colonne de LECTURE, 760 px moins les marges, soit 720 px à l'écran. Le (17 October 2026, 17:06:52 +0200)
+> navigateur recevait 3840 px et les réduisait à 1440, donc les trois quarts de l'image partaient à la (17 October 2026, 17:06:52 +0200)
+> poubelle avant d'atteindre son œil. Aucune amélioration du fichier ne pouvait se voir tant que cela (17 October 2026, 17:06:52 +0200)
+> durait. (17 October 2026, 17:06:52 +0200)
+>
+> Une illustration **déborde donc la colonne de texte**. Une colonne se règle sur le confort de lecture des (17 October 2026, 17:06:52 +0200)
+> phrases ; une capture d'application y devient une miniature. Le rendu est dans `ArticleRenderer.jsx`, (17 October 2026, 17:06:52 +0200)
+> bloc `image` : sortie de colonne par `margin-left: 50%` puis `translateX(-50%)`, largeur pilotée par (17 October 2026, 17:06:52 +0200)
+> `--zr-article-image-large` (1400 px aujourd'hui), avec un `min()` qui garde la marge sur petit écran. (17 October 2026, 17:06:52 +0200)
+>
+> Le contrôle qui tranche, dans le navigateur, et il vaut mieux que n'importe quelle inspection du fichier : (17 October 2026, 17:06:52 +0200)
+>
+> ```js (17 October 2026, 17:06:52 +0200)
+> [...document.querySelectorAll('img[data-zoom]')].slice(0,3) (17 October 2026, 17:06:52 +0200)
+>   .map((i) => ({ affiche: i.offsetWidth, naturel: i.naturalWidth, reels: i.offsetWidth * devicePixelRatio })) (17 October 2026, 17:06:52 +0200)
+> ``` (17 October 2026, 17:06:52 +0200)
+>
+> `reels` doit approcher `naturel`. S'il en est loin, la page jette de la résolution et le problème n'est (17 October 2026, 17:06:52 +0200)
+> pas dans l'asset. (17 October 2026, 17:06:52 +0200)
+>
+> **Rapide à afficher, sans rien céder sur la résolution.** Le chargement paresseux est déjà en place (17 October 2026, 17:06:52 +0200)
+> (`loading="lazy"`) : une image hors écran ne coûte rien. Trois règles pour le reste. La qualité descend (17 October 2026, 17:06:52 +0200)
+> avant la largeur, un 3840 px à 90 battant toujours un 1920 px à 95 sur du texte. `method=6` est le mode (17 October 2026, 17:06:52 +0200)
+> lent de l'encodeur, payé une fois à la fabrication et jamais par le visiteur. Et un cadrage se **cuit** (17 October 2026, 17:06:52 +0200)
+> dans l'asset par ImageMagick plutôt que de vivre en `object-position`, pour la même raison que le flou du (17 October 2026, 17:06:52 +0200)
+> hero. (17 October 2026, 17:06:52 +0200)
+>
+> **Un piège voisin, relevé le même jour sur `metahuman-markerless-macos` :** ce dossier pèse 12 Mo, dont (17 October 2026, 17:06:52 +0200)
+> 11,5 Mo pour deux GIF, alors que ses quatre WebP font 60 Ko chacune. Un `capture-loop.mp4` de 816 Ko dort (17 October 2026, 17:06:52 +0200)
+> d'ailleurs à côté d'un `capture-loop.gif` de 6,8 Mo, pour le même contenu. Une animation se sert en MP4, (17 October 2026, 17:06:52 +0200)
+> jamais en GIF ; le budget d'un article se dépense en résolution d'image, pas en format périmé. (17 October 2026, 17:06:52 +0200)
+>
+> ### Un article long est un GABARIT, pas un document (2026-08-27) (17 October 2026, 17:06:52 +0200)
+>
+> **Ses mots :** « ce qui est important quand on crée un article c'est l'aspect instanciation, c'est-à-dire (17 October 2026, 17:06:52 +0200)
+> l'aspect template, puis que je peux modifier rapidement via l'immense technologie que nous apporte les (17 October 2026, 17:06:52 +0200)
+> HTML grâce aux codes ». (17 October 2026, 17:06:52 +0200)
+>
+> La méthode complète, avec les trois panneaux et le recensement des familles de blocs, vit dans le skill (17 October 2026, 17:06:52 +0200)
+> `zenray-html-photoshop-pdf-hda-socialmedia`, section « L'article est un HDA ». Elle fait foi ; ce qui suit n'est que ce qui (17 October 2026, 17:06:52 +0200)
+> est propre à ce site. Le skill `design-sliders` y a été fondu le 2026-08-27 : le chercher sous son ancien (17 October 2026, 17:06:52 +0200)
+> nom ne rend plus rien. (17 October 2026, 17:06:52 +0200)
+>
+> **Les trois panneaux se posent sur la vraie page**, servie par `preview_start` sur `site-4100`, derrière (17 October 2026, 17:06:52 +0200)
+> le garde `?design=1` déjà en usage ici. Les curseurs de mise en page et d'image écrivent dans le `:root` (17 October 2026, 17:06:52 +0200)
+> de l'article ; le mode `-text` rend les blocs éditables et renvoie un diff. Un aller-retour rapporte donc (17 October 2026, 17:06:52 +0200)
+> trois choses : un jeu de valeurs, un jeu de cadrages, un diff de texte. (17 October 2026, 17:06:52 +0200)
+>
+> **Où atterrit chaque chose, et c'est propre à ce dépôt.** Les valeurs de mise en page vont dans (17 October 2026, 17:06:52 +0200)
+> `src/theme.js`. Le texte corrigé va dans `public/articles/<slug>.json`, bloc par bloc, en appliquant la (17 October 2026, 17:06:52 +0200)
+> ligne `+ après` telle quelle, puisque la PRIORITÉ 0 du global dit qu'on ne touche que la grammaire quand (17 October 2026, 17:06:52 +0200)
+> Matthieu écrit. Les cadrages d'image se CUISENT dans l'asset WebP par ImageMagick plutôt que de rester (17 October 2026, 17:06:52 +0200)
+> en `object-position`, pour la même raison que le flou du hero : ce qui est confortable en atelier coûte (17 October 2026, 17:06:52 +0200)
+> au visiteur à chaque défilement. (17 October 2026, 17:06:52 +0200)
+>
+> **Le bénéfice qu'il vise, et qui justifie tout le reste.** Un second article, plus tard, pour montrer (17 October 2026, 17:06:52 +0200)
+> l'évolution du même sujet, se fabrique en réinstanciant le gabarit avec un autre contenu et d'autres (17 October 2026, 17:06:52 +0200)
+> assets. Les deux se ressemblent alors par construction, ce qui est exactement ce qu'on attend d'une série. (17 October 2026, 17:06:52 +0200)
+>
+> ### Le piège du slug, à ne jamais oublier (17 October 2026, 17:06:52 +0200)
+>
+> `pathToActive()` fait gagner le slug d'un projet codé en dur sur celui d'un article. Si le titre du projet (17 October 2026, 17:06:52 +0200)
+> se slugifie vers le même slug que l'article, **l'article devient inatteignable**. D'où la ruse en place : (17 October 2026, 17:06:52 +0200)
+> l'article `zenray-dictate` a un projet titré « ZenRay Dictate **App** », l'article `zenrayprogress` un (17 October 2026, 17:06:52 +0200)
+> projet titré « ZenRayProgress **App** ». (17 October 2026, 17:06:52 +0200)
+>
+> ### Typographie des articles (17 October 2026, 17:06:52 +0200)
+>
+> Titres en `FONTS.serif` poids **350**, corps et listes en `FONTS.sans` (Inter) poids **400**, gras inline (17 October 2026, 17:06:52 +0200)
+> plafonné à 500. Le tout vient de `src/theme.js`, jamais d'une pile locale. Seule la mise en page (17 October 2026, 17:06:52 +0200)
+> « landing » (déclenchée par un bloc `prospectWidget`, aujourd'hui la seule page ZenRayProgress) garde ses (17 October 2026, 17:06:52 +0200)
+> poids appuyés, qui font partie de son design validé. Ne pas y toucher sans le dire. (17 October 2026, 17:06:52 +0200)
+>
+> ## Déployer (17 October 2026, 17:06:52 +0200)
+>
+> ```bash (17 October 2026, 17:06:52 +0200)
+> npm run build \ (17 October 2026, 17:06:52 +0200)
+>   && npx wrangler pages functions build --outdir=/tmp/matthieu-huguet-functions \ (17 October 2026, 17:06:52 +0200)
+>   && npx wrangler pages deploy dist --project-name matthieu-huguet (17 October 2026, 17:06:52 +0200)
+> ``` (17 October 2026, 17:06:52 +0200)
+>
+> Le lint global (`npm run lint`) est rouge sur ~261 erreurs préexistantes sans rapport avec le site publié (17 October 2026, 17:06:52 +0200)
+> (relevé le 2026-08-11). Ne pas conditionner un déploiement sain à un problème ancien et hors sujet. (17 October 2026, 17:06:52 +0200)
+>
+> ## Vérifier que ça a vraiment pris (17 October 2026, 17:06:52 +0200)
+>
+> Une commande qui rend la main sans erreur ne prouve rien. Toujours confirmer en clair : (17 October 2026, 17:06:52 +0200)
+>
+> ```bash (17 October 2026, 17:06:52 +0200)
+> curl -sI https://matthieuhuguet.com/ | grep -i "^HTTP\|^server" (17 October 2026, 17:06:52 +0200)
+> curl -s https://matthieuhuguet.com/ | grep -o "<title>[^<]*</title>" (17 October 2026, 17:06:52 +0200)
+> ``` (17 October 2026, 17:06:52 +0200)
+>
+> Pour un article et ses images, ajouter un cache-buster : (17 October 2026, 17:06:52 +0200)
+>
+> ```bash (17 October 2026, 17:06:52 +0200)
+> curl -s -o /dev/null -w "%{http_code} %{size_download}\n" \ (17 October 2026, 17:06:52 +0200)
+>   "https://matthieuhuguet.com/projects/<slug>/slide-1.webp?cb=$RANDOM" (17 October 2026, 17:06:52 +0200)
+> ``` (17 October 2026, 17:06:52 +0200)
+>
+> **Pourquoi le cache-buster** (payé le 2026-08-20) : une requête faite AVANT le déploiement met en cache la (17 October 2026, 17:06:52 +0200)
+> page de repli SPA (`index.html`, ~4,8 Ko) à la place du fichier absent. Après déploiement, l'URL nue rend (17 October 2026, 17:06:52 +0200)
+> donc encore 4821 octets et l'image paraît cassée, alors que l'origine est correcte. Le cache-buster tranche (17 October 2026, 17:06:52 +0200)
+> en une seconde entre un vrai problème et une entrée de cache périmée ; une seule requête suffit ensuite à (17 October 2026, 17:06:52 +0200)
+> revalider l'URL nue. (17 October 2026, 17:06:52 +0200)
+>
+> ## Le piège qui casse tout : le repli SPA sur les URL d'assets (17 October 2026, 17:06:52 +0200)
+>
+> Vécu en production le 2026-08-20, écran blanc complet. À connaître avant de toucher `_redirects` ou (17 October 2026, 17:06:52 +0200)
+> `_headers`. (17 October 2026, 17:06:52 +0200)
+>
+> `public/_redirects` contient `/*  /index.html  200` pour que l'accès direct à une route cliente (17 October 2026, 17:06:52 +0200)
+> fonctionne. Ce filet attrape AUSSI `/assets/xxx.js` quand le fichier n'existe pas : hash périmé dans (17 October 2026, 17:06:52 +0200)
+> un index.html encore en cache, ou requête tombée pendant la propagation d'un déploiement. Le (17 October 2026, 17:06:52 +0200)
+> navigateur reçoit donc du HTML sous une URL `.js`, échoue avec (17 October 2026, 17:06:52 +0200)
+> `Failed to load module script ... MIME type of "text/html"`, et React ne monte jamais. (17 October 2026, 17:06:52 +0200)
+>
+> Ce qui transforme l'incident en panne durable, c'est l'en-tête de `_headers`. Avec (17 October 2026, 17:06:52 +0200)
+> `immutable, max-age=31536000`, ce HTML restait figé **un an** sous une URL de script, sans aucun (17 October 2026, 17:06:52 +0200)
+> recours pour le visiteur. `/assets/*` est donc passé à `public, max-age=86400` : les noms portent (17 October 2026, 17:06:52 +0200)
+> déjà un hash de contenu, la performance ne bouge pas, et un empoisonnement se résorbe en 24 h. (17 October 2026, 17:06:52 +0200)
+>
+> **Deux corrections à ne PAS retenter, mesurées et abandonnées le même jour :** (17 October 2026, 17:06:52 +0200)
+>
+> 1. Un statut `404` dans `_redirects` est **ignoré** par Cloudflare Pages (seuls 200 et les 30x sont (17 October 2026, 17:06:52 +0200)
+>    acceptés). La règle passe, mais un asset manquant continue de rendre 200 HTML. (17 October 2026, 17:06:52 +0200)
+> 2. Remplacer le `/*` par des règles route par route (`/cv /index.html 200`, etc.) fait transformer le (17 October 2026, 17:06:52 +0200)
+>    rewrite en **redirection 308 vers `/`**. Résultat : `/cv`, `/news`, `/contact` et `/reels` (17 October 2026, 17:06:52 +0200)
+>    renvoyaient tous sur Works, tous les liens profonds détruits. Constaté en production, annulé (17 October 2026, 17:06:52 +0200)
+>    immédiatement. (17 October 2026, 17:06:52 +0200)
+>
+> Une Function `functions/assets/[[path]].js` rend un vrai 404 et attend son heure : aujourd'hui Pages (17 October 2026, 17:06:52 +0200)
+> évalue `_redirects` avant les Functions, donc elle n'est jamais atteinte. Elle est en place pour le (17 October 2026, 17:06:52 +0200)
+> jour où cet ordre changera, et son commentaire le dit. (17 October 2026, 17:06:52 +0200)
+>
+> **Une troisième correction, essayée et mesurée le 2026-08-28 : router `/assets/*` vers cette Function (17 October 2026, 17:06:52 +0200)
+> ne marche PAS.** Sur un déploiement de prévisualisation, les assets RÉELS y sont tombés aussi et ont (17 October 2026, 17:06:52 +0200)
+> tous répondu 404 (`index-De917Ede.js`, `vendor-C6WxKkic.js`, `index-yNL_tps8.css`) : le site entier (17 October 2026, 17:06:52 +0200)
+> serait mort. Une route déclarée dans `_routes.json` passe par la Function AVANT que le fichier (17 October 2026, 17:06:52 +0200)
+> statique ne soit consulté, contrairement à ce que l'on suppose. `_routes.json` ne contient donc que (17 October 2026, 17:06:52 +0200)
+> `/api/prospect`, et il faut le laisser ainsi. (17 October 2026, 17:06:52 +0200)
+>
+> **Le symptôme que ce piège produit vraiment, et qu'on attribue à tort au code : « This section (17 October 2026, 17:06:52 +0200)
+> couldn't load. »** Un onglet ouvert AVANT un déploiement garde en mémoire les noms de chunks de (17 October 2026, 17:06:52 +0200)
+> l'ancien build ; après la mise en ligne, ces fichiers n'existent plus sous ce hash, la requête tombe (17 October 2026, 17:06:52 +0200)
+> dans le repli SPA, et `import()` reçoit du HTML sous une URL `.js`. Rien n'est cassé, l'onglet vit (17 October 2026, 17:06:52 +0200)
+> dans le passé. La parade est côté client, `src/lib/chunkGuard.js` du dépôt, qui recharge la page une (17 October 2026, 17:06:52 +0200)
+> seule fois puis passe la main à la frontière d'erreur ; ce fichier porte la cause, l'essai raté et le (17 October 2026, 17:06:52 +0200)
+> verrou anti-boucle, et il fait foi. Le test qui le prouve dans les deux sens est (17 October 2026, 17:06:52 +0200)
+> `scripts/test-chunk-guard.mjs`. (17 October 2026, 17:06:52 +0200)
+>
+> **Corollaire pour toute vérification après déploiement :** un onglet déjà ouvert n'est pas un (17 October 2026, 17:06:52 +0200)
+> témoin valable, et c'est une seconde raison après celle du navigateur qui ment plus bas. Recharger, (17 October 2026, 17:06:52 +0200)
+> ou ouvrir un onglet neuf. (17 October 2026, 17:06:52 +0200)
+>
+> **Le contrôle qui tranche**, à faire après chaque déploiement touchant le routage : (17 October 2026, 17:06:52 +0200)
+>
+> ```bash (17 October 2026, 17:06:52 +0200)
+> curl -s -o /dev/null -w "%{http_code} %{content_type}\n" "https://matthieuhuguet.com/assets/nope-$RANDOM.js" (17 October 2026, 17:06:52 +0200)
+> for r in / /works /reels /reels/zenrayprogress /news /contact /cv; do (17 October 2026, 17:06:52 +0200)
+>   curl -s -o /dev/null -w "$r %{http_code} %{content_type}\n" "https://matthieuhuguet.com$r" (17 October 2026, 17:06:52 +0200)
+> done (17 October 2026, 17:06:52 +0200)
+> ``` (17 October 2026, 17:06:52 +0200)
+>
+> Aucune route ne doit rendre un 30x. Attention aux réponses déjà en cache à l'edge : après un mauvais (17 October 2026, 17:06:52 +0200)
+> déploiement, un `?cb=$RANDOM` distingue en une seconde un vrai problème d'une entrée périmée. (17 October 2026, 17:06:52 +0200)
+>
+> ## Le piège du navigateur qui ment (17 October 2026, 17:06:52 +0200)
+>
+> Juste après une migration DNS, un onglet Chrome resté ouvert a affiché `404: DEPLOYMENT_NOT_FOUND` avec un (17 October 2026, 17:06:52 +0200)
+> identifiant `hnd1::…`, format d'erreur de **Vercel**, pas de Cloudflare, alors qu'un `curl` répondait 200 (17 October 2026, 17:06:52 +0200)
+> au même instant. Chrome gardait une connexion vers l'ancien hébergeur. (17 October 2026, 17:06:52 +0200)
+>
+> Si Matthieu signale une panne juste après un déploiement : vérifier d'abord par `curl` depuis le terminal, (17 October 2026, 17:06:52 +0200)
+> jamais se fier à un onglet déjà ouvert. Si `curl` répond, proposer `chrome://net-internals/#dns` → (17 October 2026, 17:06:52 +0200)
+> *Clear host cache*, un onglet neuf, ou un test en 4G. Ne jamais conclure à un problème de déploiement sur (17 October 2026, 17:06:52 +0200)
+> la seule foi d'un onglet non rechargé. (17 October 2026, 17:06:52 +0200)
+>
+> ## Un article publié devient un carrousel sans réécriture (2026-08-23) (17 October 2026, 17:06:52 +0200)
+>
+> Le site est la SOURCE, le carrousel en est une projection. Le préréglage complet vit dans le skill (17 October 2026, 17:06:52 +0200)
+> `zenray-html-photoshop-pdf-hda-socialmedia`, section « article en carrousel » ; ici on note seulement ce qui touche au (17 October 2026, 17:06:52 +0200)
+> site lui-même. (17 October 2026, 17:06:52 +0200)
+>
+> **Les capsules de langue et les liens vivent dans `ArticleRenderer`**, pilotés par deux tableaux, (17 October 2026, 17:06:52 +0200)
+> `LANGUES` et `LIENS_ARTICLE`. Ajouter une langue ou un bouton se fait en ajoutant une ligne, jamais (17 October 2026, 17:06:52 +0200)
+> en recopiant du balisage. (17 October 2026, 17:06:52 +0200)
+>
+> **La langue va dans le NOM DE FICHIER**, `<slug>.fr.json` à côté de `<slug>.json`, et `loadArticle` (17 October 2026, 17:06:52 +0200)
+> retombe sur l'anglais quand une traduction manque. Aucun code conditionnel, aucun champ de langue (17 October 2026, 17:06:52 +0200)
+> dans le contenu. (17 October 2026, 17:06:52 +0200)
+>
+> **Un article traduit pendant qu'on réordonne l'original doit être repermuté à l'identique.** Payé le (17 October 2026, 17:06:52 +0200)
+> 23 août : deux agents traduisaient pendant que je déplaçais des sections, et les fichiers se sont (17 October 2026, 17:06:52 +0200)
+> retrouvés alignés en nombre de blocs mais pas en ordre. Le contrôle qui tranche compare le TYPE de (17 October 2026, 17:06:52 +0200)
+> chaque bloc position par position, puis l'URL de chaque image. (17 October 2026, 17:06:52 +0200)
+>
+> **Mode relecture en page :** `?edit=1` sur localhost rend les blocs éditables et copie uniquement le (17 October 2026, 17:06:52 +0200)
+> diff. Deux verrous, le paramètre et le nom d'hôte, pour qu'il ne parte jamais en production. Détail (17 October 2026, 17:06:52 +0200)
+> dans `zenray-html-photoshop-pdf-hda-socialmedia`, annexe `design-sliders`, mode `-text`. (17 October 2026, 17:06:52 +0200)
+>
+> **Le serveur local sert `dist/`, pas `public/`.** Un fichier corrigé sur disque continue donc (17 October 2026, 17:06:52 +0200)
+> d'apparaître dans son ancienne version tant qu'on n'a pas relancé `npm run build`. Faux symptôme (17 October 2026, 17:06:52 +0200)
+> coûteux, à écarter avant de chercher un bug ailleurs. (17 October 2026, 17:06:52 +0200)
+>
+> **Les sections de la page Works** se déclarent en tête d'`App.jsx` (`GROUP_APP`, `GROUP_3D`, (17 October 2026, 17:06:52 +0200)
+> `GROUP_ANIM_3D`, etc.) puis se rendent par un `ProjectGroupSection`. La plus récente va en dernier (17 October 2026, 17:06:52 +0200)
+> et porte `defaultOpen`. Ne pas oublier d'ajouter le nouveau groupe à `GROUP_EXTRA`, sinon ses (17 October 2026, 17:06:52 +0200)
+> projets réapparaissent aussi dans la grille 3D. (17 October 2026, 17:06:52 +0200)
+>
+> ## L'entrée Store, vers ZenRay Studio (2026-09-11) (17 October 2026, 17:06:52 +0200)
+>
+> La barre du haut porte **Store** à gauche de Works. Elle ouvre le store ZenRay Studio dans un nouvel (17 October 2026, 17:06:52 +0200)
+> onglet, rendue en vraie balise `<a>` avec le même style que les autres entrées. Trois constantes en (17 October 2026, 17:06:52 +0200)
+> tête d'`App.jsx` la pilotent : `NAV_ITEMS_KEYS` (l'ordre), `STORE_URL` (l'adresse, `https://zenray.studio` (17 October 2026, 17:06:52 +0200)
+> depuis le 2026-09-11) et `NAV_EXTERNAL` (les entrées qui quittent le site). Le libellé (17 October 2026, 17:06:52 +0200)
+> vit dans `TRANSLATIONS.en.nav.store` et `TRANSLATIONS.fr.nav.store`. (17 October 2026, 17:06:52 +0200)
+>
+> `zenray.studio` est acheté et rattaché au projet Pages `zenray-studio` depuis le 2026-09-11. Le store lui-même ne vit pas ici : son design est dans le skill (17 October 2026, 17:06:52 +0200)
+> `zenray-html-photoshop-pdf-hda-socialmedia-shorts-reel`, dossier `templates/zenray-studio/`, et son (17 October 2026, 17:06:52 +0200)
+> code dans `Productions/GithubProductions/ZenRayStudio`. (17 October 2026, 17:06:52 +0200)
+>
+> ## Publier un article quand l'arbre de travail est sale (1 October 2026, article Ceramic Tiles) (17 October 2026, 17:06:52 +0200)
+>
+> - 1 October 2026 : le déploiement par `wrangler pages deploy dist` publie CE QUI EST SUR LE DISQUE, y compris des modifications non commitées d'une autre session. Constaté le 1 October 2026: `ZenRayWebsite` portait un travail du 19 September non déployé (carte Louisiana Bayou, `ArticleRenderer`, `louisiana-bayou-procedural-church.fr.json`). Avant tout déploiement: `git status --short`; si l'arbre est sale, ne PAS déployer depuis lui. (1 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 1 October 2026 : méthode retenue, vérifiée: (1) `git worktree add --detach ../ZenRayWebsite-publish HEAD`, `ln -s ../ZenRayWebsite/node_modules node_modules`; (2) construire HEAD seul et comparer le nom du bundle `index-*.js` avec celui du site en ligne (`curl -s https://matthieuhuguet.com/ | grep -o 'assets/index-[^"]*\.js'`): s'ils sont identiques, le site en ligne EST HEAD et le déploiement n'ajoutera que ce qu'on y met; (3) faire les changements dans ce worktree seulement, construire, déployer; (4) `git add` de chemins explicites, commit, `git push origin HEAD:master`; (5) `git worktree remove --force`. L'arbre de travail principal garde son travail inachevé intact. (1 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 1 October 2026 (PIÈGE): dans un worktree en HEAD détaché, `wrangler pages deploy` déduit la branche `HEAD`, donc crée un déploiement de PRÉVISUALISATION (`head.matthieu-huguet.pages.dev`), pas la production. Ajouter `--branch master`. Contrôle: le nom du bundle servi par `https://matthieuhuguet.com/?cb=$RANDOM` doit être celui de `dist/index.html`. (1 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 1 October 2026 : bloc d'article `youtube` (nouveau): `{"type":"youtube","props":{"youtubeId":"...","aspect":"1 / 1","poster":"/projects/<slug>/poster.webp","label":"...","controls":1}}`. Il réutilise `YouTubeEmbed` (vignette du site et bouton, aucune requête vers YouTube avant le clic), au ratio donné par `aspect`, dans la colonne de lecture (720 px pour un carré). `videoPlaceholder` ne sait lire YouTube qu'en mise en page « landing ». Le poster se cuit depuis une image du film. (1 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 1 October 2026 : les sections de la page Works sont maintenant DEUX (`GROUP_CODE_DESIGN` pour les outils et interfaces, `GROUP_3D_ALL` pour tout le reste non caché, dans l'ordre du tableau `PROJECTS`). Une image ou un matériau est une carte NON cachée placée en tête du tableau des cartes 3D, juste avant `HDA Stairs Component`; `hidden: true` ne s'emploie que pour les cartes d'article de la section Code / Design. L'étape « ajouter l'id à GROUP_APP... » plus haut est périmée. Le titre de la carte et le slug de l'article doivent se slugifier différemment (`pathToActive`). Vignette 16:9 d'un visuel carré: la miniature entière au centre sur sa propre copie floue, cuite par ImageMagick (`-resize 2560x1440^ -blur 0x40 -modulate 78`, puis le carré de 1440 px composé au centre). (1 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 1 October 2026: ArtStation: l'API `projects/<id>.json` répond 403 (défi Cloudflare, à ne pas contourner); la page s'ouvre dans le navigateur intégré, ses images et le lien d'un projet voisin se lisent dans le DOM, et le CDN d'images se télécharge ensuite par `curl`: remplacer `/small/` par `/4k/` dans l'URL `cdna.artstation.com/p/assets/images/images/NNN/NNN/NNN/small/<fichier>?<horodatage>`. (1 October 2026) (17 October 2026, 17:06:52 +0200)
+>
+> ## 3 October 2026 : Le CV (/cv) et son PDF téléchargeable (17 October 2026, 17:06:52 +0200)
+>
+> - 3 October 2026 : la page `/cv` porte un bouton discret `PDF` (sous le bouton FR/EN) qui télécharge le CV dans la langue affichée. Le PDF est hébergé sur GitHub, dépôt PUBLIC `matthieuhuguet/ZenRayWebsite-Files` (dossier `cv/`), servi par jsDelivr, URL figée sur un SHA de commit dans `src/cv/cvPdf.json`. Le téléchargement passe par `fetch` puis Blob, car un `<a download>` cross-origin est ignoré ; si le fetch échoue, le navigateur ouvre le fichier. (3 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 3 October 2026 : source UNIQUE du CV : `src/cv/cvData.js` (compétences, expériences, formations, textes EN et FR), lue par la page ET par le générateur de PDF. Les projets ne s'y écrivent jamais : `scripts/cv/build-cv-data.mjs` les génère dans `src/cv/cvProjects.generated.json` depuis `PROJECTS`, `PROJECT_TAGS` et `GROUP_CODE_DESIGN` de `src/App.jsx`, dans l'ordre de la page Works. Chaque URL suit la règle du routeur (`/reels/<articleSlug>` sinon `/reels/<slugify(titre)>`) et le script échoue si un slug n'y résout pas, si deux projets en partagent un, ou si un article manque. `npm run build` le relance (`prebuild`). (3 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 3 October 2026 : les textes courts des cartes sont dans `src/cv/cvProjectBlurbs.json` (EN et FR, clé = id du projet) ; un projet sans texte reprend les premières phrases de sa description du site et est signalé au build. Un projet ajouté au site apparaît donc seul sur le CV, et son lien est celui du site. (3 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 3 October 2026 : pourquoi la liste a été régénérée : elle était saisie à la main, il manquait 11 projets (Ceramic Tiles, HDA Stairs, Shutters, Ornate Fabric, Houdini Game Environments, Niagara Vortex, Rock Gen, et les quatre cartes d'article ZenRayProgress Design Tour, ZenRayProgress App, ZenRay Dictate, MetaHuman Markerless), sept routes n'existaient pas (`megascans-to-substance`, `louisiana-bayou-v15`, `sd-mcp`, `ue5-mcp-article`, `ghost-ui`, `game-ui-react`, `magick-slides`) et le lien GitHub de PushVault pointait sur une branche `v2` inexistante (404, corrigé aussi dans `externalLink` de `App.jsx`). Contrôle : les 26 routes du site ont été chargées dans le navigateur et affichent bien leur titre. (3 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 3 October 2026 : les compteurs « 17 projects · 17 artworks » et « 2.5K LinkedIn » sont retirés de la page et du PDF, à la demande de Matthieu. Accents du français rétablis (orthographe seule), abréviations de mois anglaises corrigées (`periodEn` : Feb, Aug, Jun), titre « Divers » devenu « Other » en anglais, pied de page daté par `CV_UPDATED` au lieu de « May 2026 » figé. (3 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 3 October 2026 : le PDF (`scripts/cv/`) : gabarit `cv-template.mjs`, paramètres `cv-params.json` (aucune valeur en dur), polices statiques instanciées par `make-static-fonts.py` depuis les variables du site (Inter 400, AnthropicSerif 350 et 400, AnthropicMono 400), rendu par Chrome headless en A4 avec PDF balisé, DA ZenRayProgress (fond #FDFDFC, encre #1F1F1E, bleu système #0A84FF, cartes à filet fin). `render-cv-pdf.mjs` fabrique EN et FR puis `verify-cv-pdf.py` vérifie, avec code de sortie non nul au moindre défaut : chaque chaîne attendue est dans le texte extrait, aucune encre dans les marges (rien de coupé), toutes les polices embarquées et aucune police de repli, chaque lien cliquable, aucune dernière page orpheline. (3 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 3 October 2026 : piège payé en construisant le vérificateur : Chrome RÉTRÉCIT une page dont le contenu dépasse la largeur du papier au lieu de le couper, donc aucun contrôle d'encre dans la marge ne le voit. Une sonde (`--dump-dom` à la largeur exacte du cadre de contenu, 680 px) échoue si un élément déborde ; elle a été testée dans les deux sens (vert sur le CV, rouge avec une grille volontairement trop large). `@page { background }` fonctionne et évite le liseré entre marge et contenu. (3 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 3 October 2026 : pour mettre le PDF à jour après toute modification du CV, de la liste des projets ou de la mise en page : `node scripts/cv/publish-cv-pdf.mjs` (reconstruit, vérifie, pousse sur GitHub, contrôle le CDN octet pour octet avec en-tête CORS, puis réécrit `src/cv/cvPdf.json`), ensuite build et déploiement. Le build AVERTIT (sans bloquer) quand l'empreinte du CV diffère de celle des PDF publiés. Sans changement de contenu la commande ne publie rien (`--force` pour republier). (3 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 3 October 2026 : le jeton GitHub n'est jamais lu ni affiché : tout passe par `gh` (trousseau) et par le gestionnaire d'identifiants git. Le dépôt d'hébergement est public parce que jsDelivr l'exige ; le CV y est le même que celui de la page. (3 October 2026) (17 October 2026, 17:06:52 +0200)
+> - 3 October 2026 : déploiement fait depuis un worktree propre (`~/.claude/tmp/tmp-zenray-cv-pdf/site`, branche `cv-pdf`, `node_modules` en lien symbolique) avec `--branch master`, parce que l'arbre principal portait le travail non commité d'une autre session ; poussé ensuite par `git push origin cv-pdf:master`. (3 October 2026) (17 October 2026, 17:06:52 +0200)
+>
+> ## 6 October 2026 : Un article ULTRA COMPLET depuis un projet (cas Fleur de Lys, ZenRay Vegetation Collection 01) (17 October 2026, 17:06:52 +0200)
+>
+> - Demande de Matthieu (6 October 2026) : « crée l'article ultra complet avec l'illustration des trois vidéos, attends que j'aie fini de les poster, je ne veux jamais que les photos soient trop grandes ou pas indexées, explique tout de A à Z ». Le brouillon est fait et committé sur la branche locale `article-fleur-de-lys-draft` du worktree `~/.claude/tmp/tmp-zenray-website-lily/site` (commit 84954cd), NON poussé, NON déployé. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Matière : jamais la mémoire de l'agent. Dans cet ordre (6 October 2026) : `Client.mjs context <projet>` ; `LinkConversations.mjs --project <id> --write-memory` puis `ConversationIndex.md` (les conversations Claude, Codex et Gemini qui ont travaillé sur le projet) ; un digest par conversation utile (`ConversationDigest.mjs`, `--project` si elle n'est pas entièrement sur le projet : une session Gemini contenait des réponses de candidature privées, jamais citées) ; le `FEEDBACK.md` du projet pour les mots de Matthieu ; puis les FICHIERS (scène Houdini ouverte en headless pour compter les nœuds et les primitives, `lily_params.json`, scripts, manifestes des vidéos). Les chiffres viennent des fichiers, jamais du digest. Détail : skill `zenray-assets-v2`, section du 6 October 2026. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Fabrique, un seul endroit par chose, dans le dossier de production du projet `Scripts/ArticleLily/` (6 October 2026) : `Figures.py` (un décorateur `@fig` par image, l'ordre de lecture dans `ORDER`, WebP numérotés, jamais plus de 2560 px, qualité qui baisse AVANT la largeur, budget 680 Ko au-dessus de 1700 px et 430 Ko en dessous, total 17 Mo, provenance de chaque source enregistrée, écrit `images-index.json` public sans les chemins locaux et `ImagesIndex.md` privé avec la provenance) ; `Article.py` (le texte en données : P, H2, H3, UL, OL, Q, CODE, TABLE, IMG, VIDEO ; le balisage **gras**, *italique*, `code` et [lien](url) ; les images cherchées par identifiant dans l'index, si bien que numéro, légende, taille et poids ne peuvent pas diverger) ; `Check.py` (vérificateur, code de sortie, testé dans les deux sens avec `--selftest` : image absente de l'index, trop large ou trop lourde, tiret long, numéro de figure faux, ancre morte, source de référence interdite). `VideoIds.json` porte les trois identifiants YouTube : vide = affiche avec « Video coming soon ». (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Images, la règle de Matthieu (6 October 2026) : jamais trop grandes, jamais non indexées. Concrètement : numérotées dans l'ordre de lecture (`NN-nom.webp`) avec « Figure N. » dans la légende, listées dans `public/projects/<slug>/images-index.json`, et affichées au plus à la largeur de leurs pixels, à 1400 px, à la largeur de la fenêtre moins 40 px et à 86 % de la HAUTEUR de la fenêtre. Le moteur d'affichage lit pour cela `props.width` et `props.height` de chaque bloc image (écrits par `Article.py` depuis l'index) ; un bloc sans taille se comporte comme avant. Mesuré à 1440 x 900 : 33 images, aucune plus haute que 774 px ni plus large que 1400 px, les petites (920 et 1254 px) à leur taille native. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Aucune image de référence d'un autre artiste, ni générée à partir d'elle, n'entre dans un article : les mesures, oui, jamais les images. La provenance de chaque figure est contrôlée par `Check.py` contre les dossiers de références. Les figures sont des sorties Houdini, des rendus Unreal, des captures d'écran de Matthieu rognées à la fenêtre de l'application (sans barre de menus ni Dock), des images de montage et des schémas dessinés par script (Inter pour le texte). (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Ajouts à `src/articles/ArticleRenderer.jsx`, tous rétrocompatibles (6 October 2026) : les blocs image gardent leur largeur de 1400 px mais portent les plafonds ci-dessus ; un titre accepte `id` (ancre, `scrollMarginTop: 90`) ; un lien qui commence par `#` ne s'ouvre pas dans un nouvel onglet, et son clic est géré à la main (`scrollIntoView` plus `replaceState`) car une vraie navigation par hash déclenche `popstate`, le routeur re-rend et le titre de l'onglet retombe à « Reels » (constaté puis corrigé) ; un bloc `youtube` sans `youtubeId` mais avec `poster` s'affiche comme affiche « Video coming soon » au lieu de disparaître, et un bloc vidéo ne dépasse jamais 86 % de la hauteur de la fenêtre ; nouveau bloc `table` (`props.columns`, `props.rows`, `props.caption`). La carte (id 105, vérifié libre) vit dans la section 3D, titre slugifié différent du slug de l'article (« to »), vignette 16:9 cuite hors ligne (carré au centre, son flou en fond), et le plan du site porte l'extension image (`xmlns:image`) avec les 33 figures. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Vérifier une page dont les images sont paresseuses dans un onglet caché : `loading="lazy"` ne charge rien tant que l'onglet est invisible ; pour contrôler, passer toutes les images en `eager` par JavaScript et attendre leur chargement avant de lire les tailles. Le défilement doux (`scroll-behavior: smooth`) ne se déclenche pas non plus dans un onglet caché ; `scrollTo({ behavior: 'instant' })` y fonctionne. Aperçu local : configuration `site-lily-draft` (port 4177) dans `~/.claude/Memory1/.claude/launch.json`, qui sert le `dist/` du worktree. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Publier ce brouillon, dans cet ordre, seulement quand Matthieu dit que les vidéos sont postées (6 October 2026) : écrire les trois identifiants dans `VideoIds.json`, relancer `Article.py` et `Check.py` (vert), `npm run build`, fusionner la branche dans `master` et pousser (un déploiement ne part que de la branche partagée à jour, règle du 5 October 2026), déployer depuis un worktree propre (`git status` vide) par `wrangler pages deploy`, puis vérifier par `curl` avec cache-buster que l'article, `images-index.json` et un échantillon d'images répondent 200 avec les bons octets. Le post (anglais, français, japonais) attend le lien final de l'article. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Franchise sur l'agent : l'article dit que Claude Code, Codex et Gemini ont travaillé, avec un tableau « qui a fait quoi ». C'est la vérité du projet ; la décision de le garder, de le raccourcir ou de le retirer appartient à Matthieu avant publication. Ne jamais l'effacer sans le lui dire. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+>
+> ## Logger et pousser (17 October 2026, 17:06:52 +0200)
+>
+> Après la vérification, journaliser uniquement dans `/Users/zenray/.claude/PROGRESS.md` par le skill (17 October 2026, 17:06:52 +0200)
+> `progress`, avec `--project "ZenRayWebsite"`. Le `PROGRESS.md` historique du repo reste en lecture seule. (17 October 2026, 17:06:52 +0200)
+> Puis pousser seulement les fichiers du produit : (17 October 2026, 17:06:52 +0200)
+>
+> ```bash (17 October 2026, 17:06:52 +0200)
+> git add -- <fichiers réellement modifiés> (17 October 2026, 17:06:52 +0200)
+> git commit -m "..." (17 October 2026, 17:06:52 +0200)
+> git push origin master (17 October 2026, 17:06:52 +0200)
+> ``` (17 October 2026, 17:06:52 +0200)
+>
+> Jamais `git add -A` ni `git add .` dans ce repo. `state.json` à la racine porte l'état d'une tâche longue (17 October 2026, 17:06:52 +0200)
+> en cours ; le tenir à jour si le travail en fait partie. (17 October 2026, 17:06:52 +0200)
+>
+> ## 6 October 2026 : Où trouver l'index des conversations d'un projet avant d'écrire son article (17 October 2026, 17:06:52 +0200)
+>
+> - 6 October 2026 : l'index des conversations d'un projet est `~/.claude/Memory1/Projects/<id>/ConversationIndex.md` (et `.json`), régénéré par `LinkConversations.mjs --project <id> --write-memory`. Pour le lys (projet `vegetation-assets-collection-01`), les trois sessions de travail et leurs identifiants de lecture sont dans le skill `zenray-houdini`, section du 6 October 2026 « Where the conversations of the Vegetation Collection 01 project are indexed ». (6 October 2026) (17 October 2026, 17:06:52 +0200)
+>
+> ## Contenu public et outils internes (6 October 2026) (17 October 2026, 17:06:52 +0200)
+>
+> - Dans les articles, posts, légendes et crédits publics, ne pas publier de mentions d’agents, d’automatisation agentique, de Claude Code, Codex, Gemini, LLM, AI ou IA, ni le fonctionnement interne des prompts, bridges, files de commandes ou mémoires partagées, sauf demande explicite ultérieure de Matthieu pour le sujet concerné. Ces informations restent dans le suivi privé. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Écrire sur le travail artistique et technique vérifié, ses choix, résultats et limites. Ne pas inventer de vécu, d’effort manuel, de jugement personnel ou d’auteur pour remplacer une mention supprimée. Garder une formulation factuelle et naturelle ; retirer les considérations internes qui ne servent pas le lecteur. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Avant publication, vérifier tout le contenu visible et ses métadonnées, les tableaux, légendes et figures. Pour le lys, ArticleLily/Check.py refuse les mentions internes et son selftest prouve le refus. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+> - Cette règle remplace pour la publication la consigne historique « Franchise sur l’agent » du 6 October 2026 : Matthieu demande maintenant explicitement le retrait de ces mentions. Le protocole privé de lecture des conversations reste nécessaire et ne doit pas entrer dans l’article. (6 October 2026) (17 October 2026, 17:06:52 +0200)
+>
+> ## Renommage de l’atelier média (7 October 2026) (17 October 2026, 17:06:52 +0200)
+>
+> - Les références précédentes à zenray-html-photoshop-pdf-hda-socialmedia-shorts-reel se résolvent désormais dans le skill canonique zenray-edit. Ses templates, ressources et méthodes historiques sont conservés ; lire son contrat actif avant une exécution. (7 October 2026) (17 October 2026, 17:06:52 +0200)
+
+## 17 October 2026, 17:09:26 +0200 : Iteration
+
+<!-- feedback-event:dbc791372ecf2f8b19f59f4ff0c25b7ed7f8691a9922e192dac90af0ba843639 (17 October 2026, 17:09:26 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (17 October 2026, 17:09:26 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 17:09:26 +0200)
+
+> La nouvelle photo s'affiche bien en local. Je déploie en production depuis ce worktree propre, qui est exactement `origin/master` plus le seul fichier `me.webp`. (17 October 2026, 17:09:26 +0200)
