@@ -1707,3 +1707,47 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 17:51:53 +0200)
 
 > Le serveur renvoie déjà la nouvelle photo, même sans cache-buster. Ton onglet garde l'ancienne en cache navigateur (`max-age=14400`, soit 4 h). Je le prouve avec un navigateur vierge. (17 October 2026, 17:51:53 +0200)
+
+## 17 October 2026, 18:05:08 +0200 : Prompt
+
+<!-- feedback-event:e1a77c48786971b766e3669976cb614d74745ea6e3d258465c7dd8bf2a0f7bec (17 October 2026, 18:05:08 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (17 October 2026, 18:05:08 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 18:05:08 +0200)
+
+> Oui, ajoute un paramètre de version à l'image me.webp pour que les changements de photo soient instantanés, puis redéploie. (17 October 2026, 18:05:08 +0200)
+
+## 17 October 2026, 18:05:58 +0200 : Iteration
+
+<!-- feedback-event:7beaaac046f50fe8fa7823a2cf6b88976d81fe5f293848cdba4779ef98d77088 (17 October 2026, 18:05:58 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (17 October 2026, 18:05:58 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 18:05:58 +0200)
+
+> Je vérifie l'aperçu local de la version avec paramètre, puis je déploie. (17 October 2026, 18:05:58 +0200)
+
+## 17 October 2026, 18:06:49 +0200 : Iteration
+
+<!-- feedback-event:3b892d41bb4f545a146dba16f2e247e2c2176581998241e2bc3601e196a13208 (17 October 2026, 18:06:49 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (17 October 2026, 18:06:49 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 18:06:49 +0200)
+
+> Le déploiement et le push sont faits. Je vérifie l'image sur le site en ligne avec un navigateur vierge, puis je range le worktree et le skill. (17 October 2026, 18:06:49 +0200)
+
+## 17 October 2026, 18:07:10 +0200 : Iteration
+
+<!-- feedback-event:def87b91ed55a378f615c4e139fedf572786bd0722dc5326f1187dabc4225152 (17 October 2026, 18:07:10 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (17 October 2026, 18:07:10 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 18:07:10 +0200)
+
+> La photo du site est maintenant versionnée et déployée. Dans un navigateur vierge, matthieuhuguet.com affiche la nouvelle photo en couleur. (17 October 2026, 18:07:10 +0200)
+>
+> Le nom du fichier ne changeait pas et le serveur le garde 4 h en cache. Ton Chrome gardait donc l'ancienne photo. Désormais l'URL porte l'empreinte du contenu : `/me.webp?v=7fe19ebffc`. Elle est calculée au build, depuis `public/me.webp`. Elle s'applique à la page et aux trois URL d'`index.html` (aperçus de partage et données structurées). Un futur changement de photo se fait donc en remplaçant `public/me.webp`, en construisant et en déployant, sans autre réglage. (17 October 2026, 18:07:10 +0200)
+>
+> Pour sortir de l'ancien cache, ton onglet Chrome a besoin d'un rechargement forcé : Cmd+Maj+R. C'est la dernière fois. Les visiteurs qui ont chargé le site dans les 4 dernières heures peuvent voir l'ancienne photo jusqu'à 4 h, puis plus jamais. (17 October 2026, 18:07:10 +0200)
+>
+> Les changements sont dans `vite.config.js` et `src/App.jsx` (commit e873b46, poussé sur master). Le skill `zenray-website` et le journal sont à jour. (17 October 2026, 18:07:10 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (17 October 2026, 18:07:10 +0200)
+> |---|---|---| (17 October 2026, 18:07:10 +0200)
+> | Un paramètre de version sur la photo pour des changements instantanés | Oui | Image servie avec `?v=7fe19ebffc`, identique octet pour octet à `public/me.webp` | (17 October 2026, 18:07:10 +0200)
+> | Redéployer | Oui | HTML en ligne versionné aux 3 endroits, 5 routes en 200, navigateur vierge qui charge la bonne image | (17 October 2026, 18:07:10 +0200)
+> | Voir la photo chez toi | À toi | Rechargement forcé de l'onglet (Cmd+Maj+R) | (17 October 2026, 18:07:10 +0200)
