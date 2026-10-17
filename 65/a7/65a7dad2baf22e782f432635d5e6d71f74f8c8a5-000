@@ -1,0 +1,7 @@
+# studiophoto-matthieu-17-october-2026 : rules, append only (17 October 2026)
+
+Standing rules of this project, one line each, loaded automatically at session start. Full history and context: FEEDBACK.md in this folder. A rule that changes gets a new line citing the old one. (17 October 2026)
+
+- Peau : ancrer sur la peau de l'original (skin_match), ne jamais l'éclaircir ni la jaunir. Mesurer L, chroma et teinte avant et après : les looks précédents ajoutaient +0,04 à +0,07 de luminosité et +7 degrés de teinte, d'où une peau trop blanche. (17 October 2026) (17 October 2026) <!-- rule:ee770ac31ef8 -->
+- Outils d'édition : toujours fournir des curseurs avec un bouton Copier les valeurs, un rendu pleine résolution qui reprend les mêmes formules, et une vérification de parité entre le navigateur et Python avant de livrer. (17 October 2026) (17 October 2026) <!-- rule:18b98e8735cd -->
+- Dossiers de projet et TMP : le nom porte toujours la date en anglais, mois en toutes lettres (tmp-<nom>-17-october-2026). Les photos temporaires de Downloads sont déplacées dans Sources/ du projet. (17 October 2026) (17 October 2026) <!-- rule:48a3a0245f3c -->
