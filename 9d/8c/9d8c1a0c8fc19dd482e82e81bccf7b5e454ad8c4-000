@@ -1663,3 +1663,47 @@
 - Source: checkpoint:claude:2ce02bbc-dad5-488e-9ffc-51313c488339. (17 October 2026, 17:14:49 +0200)
 
 > 17 October 2026 : projet rangé dans tmp-studiophoto-matthieu-17-october-2026 (7 photos déplacées de Downloads vers Sources/), archive cloud : 83 des 85 fichiers identiques à leur reçu SHA-256 (les 2 autres sont les index de conversation), manifeste et chunk de la photo 5 relus sur GitHub. Site matthieuhuguet.com : me.webp remplacé et déployé depuis origin/master, octets identiques en ligne, commit 5d01c57 poussé. Prochain geste : décider couleur ou noir et blanc pour la photo du site, tester l ouverture du HTML en double-clic. (17 October 2026, 17:14:49 +0200)
+
+## 17 October 2026, 17:49:36 +0200 : Prompt
+
+<!-- feedback-event:613b79b191e9c8c7e9d5bfae6cd023411c84d2d0599f59559d785aeed760af42 (17 October 2026, 17:49:36 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (17 October 2026, 17:49:36 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 17:49:36 +0200)
+
+> Garde la photo du site en couleur. (17 October 2026, 17:49:36 +0200)
+
+## 17 October 2026, 17:50:30 +0200 : Iteration
+
+<!-- feedback-event:eaa7015592cf1a0b415967e6183d9dd5297a2de662ed6b07404d21bdf2663c69 (17 October 2026, 17:50:30 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (17 October 2026, 17:50:30 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 17:50:30 +0200)
+
+> C'est noté : la photo de matthieuhuguet.com reste en couleur. Il n'y a rien à redéployer, car la version en ligne est déjà celle-ci. Je l'ai inscrit dans la mémoire du projet et dans le journal, et les deux sont commités. (17 October 2026, 17:50:30 +0200)
+>
+> L'ancienne photo en niveaux de gris n'existe plus que dans l'historique Git du site (commit 240c67c). (17 October 2026, 17:50:30 +0200)
+>
+> Le projet est rangé dans `/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026`. Reste à tester l'ouverture de `SkinBgPicker.html` par double-clic, je ne l'ai testée que via un serveur local. (17 October 2026, 17:50:30 +0200)
+
+## 17 October 2026, 17:51:38 +0200 : Prompt
+
+<!-- feedback-event:05303a4b4b462998e7ed4b9d52cd0e2b1c1924d2872bbf8c55be339cdd0e5b5b (17 October 2026, 17:51:38 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (17 October 2026, 17:51:38 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 17:51:38 +0200)
+
+> il n'y a pas la nouvelle photo (17 October 2026, 17:51:38 +0200)
+
+## 17 October 2026, 17:51:38 +0200 : Prompt
+
+<!-- feedback-event:b8268d078f6263f07f0e0201f5fd841eee8dbc5ccf1a248fe28072a0a6b4d855 (17 October 2026, 17:51:38 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (17 October 2026, 17:51:38 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 17:51:38 +0200)
+
+> [Image: source: /private/tmp/claude-501/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339/images/5.webp] (17 October 2026, 17:51:38 +0200)
+
+## 17 October 2026, 17:51:53 +0200 : Iteration
+
+<!-- feedback-event:0f0940380ddb21120f06615e690d7822027f85bc24363bc176553af321dfe6cb (17 October 2026, 17:51:53 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (17 October 2026, 17:51:53 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (17 October 2026, 17:51:53 +0200)
+
+> Le serveur renvoie déjà la nouvelle photo, même sans cache-buster. Ton onglet garde l'ancienne en cache navigateur (`max-age=14400`, soit 4 h). Je le prouve avec un navigateur vierge. (17 October 2026, 17:51:53 +0200)

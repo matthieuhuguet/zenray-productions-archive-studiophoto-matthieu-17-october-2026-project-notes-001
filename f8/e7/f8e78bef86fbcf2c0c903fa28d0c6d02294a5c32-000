@@ -13,3 +13,7 @@
 - Mise en ligne (17 October 2026) : le master local de ZenRayWebsite était 8 commits derrière `origin/master` et son bundle ne correspondait pas au site ; seul le bundle d'`origin/master` (`index-CtYp0xX4.js`) égalait le site en ligne. Le déploiement est donc parti d'un worktree basé sur `origin/master`. (17 October 2026)
 - Non vérifié (17 October 2026) : ouverture de l'outil en double-clic (file://), lisibilité de la photo en petit format LinkedIn, version noir et blanc de la photo du site (l'ancienne `me.webp` était en niveaux de gris, la nouvelle est en couleur). (17 October 2026)
 - Archive (17 October 2026) : projet et ses sources dans `/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026` ; 83 des 85 fichiers suivis identiques à leur reçu SHA-256, les deux autres étant les index de conversation qui changent avec la session ; manifeste et morceau chiffré de la photo 5 relus sur GitHub. (17 October 2026)
+
+## 17 October 2026 : décision sur la photo du site
+
+- Décision de Matthieu (17 October 2026) : la photo de matthieuhuguet.com reste en couleur, aucune version noir et blanc, rien à redéployer. L'ancienne `me.webp` en niveaux de gris n'est plus conservée que dans l'historique Git de ZenRayWebsite (commit 240c67c). (17 October 2026)
