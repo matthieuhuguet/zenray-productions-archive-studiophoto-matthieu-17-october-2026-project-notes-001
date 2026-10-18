@@ -1940,3 +1940,234 @@
 > </pasted_content id="ba2c"> (18 October 2026, 21:10:58 +0200)
 >
 > go (18 October 2026, 21:10:58 +0200)
+
+## 18 October 2026, 21:16:38 +0200 : Prompt
+
+<!-- feedback-event:839c4b031322f823f6d49bd23c140e431c336ecb5ec0fabe616ce4d8c8158bc9 (18 October 2026, 21:16:38 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (18 October 2026, 21:16:38 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:16:38 +0200)
+
+> Oui, corrige les deux fautes de la dernière puce de la version 2 (à regarder, le rasage), dans les deux copies, puis ré-archive. (18 October 2026, 21:16:38 +0200)
+
+## 18 October 2026, 21:18:46 +0200 : Iteration
+
+<!-- feedback-event:afaeae2d63f14d02c5476d165dcb6b27a0b59c02801047ff987ab82736722ae7 (18 October 2026, 21:18:46 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (18 October 2026, 21:18:46 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:18:46 +0200)
+
+> Les deux fautes de la dernière puce de la version 2 sont corrigées : « agréable à regarder » et « le rasage ». La correction est faite dans les deux copies, qui restent identiques : (18 October 2026, 21:18:46 +0200)
+>
+> - [/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/PromptGenerationMatthieuPhoto-18-October-2026.md](/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/PromptGenerationMatthieuPhoto-18-October-2026.md) (18 October 2026, 21:18:46 +0200)
+> - [/Users/zenray/.claude/Memory1/Projects/studiophoto-matthieu-17-october-2026/PromptGenerationMatthieuPhoto-18-October-2026.md](/Users/zenray/.claude/Memory1/Projects/studiophoto-matthieu-17-october-2026/PromptGenerationMatthieuPhoto-18-October-2026.md) (18 October 2026, 21:18:46 +0200)
+>
+> Je n'ai touché que cette puce. J'ai ajouté en dessous une note datée qui explique la correction, et la version 1 est restée intacte : ses 5 591 premiers octets n'ont pas changé. (18 October 2026, 21:18:46 +0200)
+>
+> Les deux copies sont ré-archivées via Assets. J'ai relu chacune depuis GitHub : le texte corrigé y est bien et son SHA-256 (`edd9c4d69f9e`, 11 432 octets) est identique à celui du fichier local. Le manifeste de chaque copie garde les trois états successifs, dont la version 1 d'origine. La copie Memory est aussi commitée dans le dépôt Memory (par la synchronisation automatique), et le journal est à jour. (18 October 2026, 21:18:46 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (18 October 2026, 21:18:46 +0200)
+> |---|---|---| (18 October 2026, 21:18:46 +0200)
+> | Corriger « a regarder » et « la rasage » | Oui | Comparaison avant/après : seule cette puce change, plus la note | (18 October 2026, 21:18:46 +0200)
+> | Dans les deux copies | Oui | Fichiers identiques octet pour octet | (18 October 2026, 21:18:46 +0200)
+> | Ré-archiver | Oui | Reçus d'archive identiques, texte relu depuis GitHub avec la correction | (18 October 2026, 21:18:46 +0200)
+
+## 18 October 2026, 21:18:48 +0200 : Prompt
+
+<!-- feedback-event:715c6f48e011bc0b88eaa8853c155eb094c8aca48a3f471c2aa62a15e1a6a003 (18 October 2026, 21:18:48 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (18 October 2026, 21:18:48 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:18:48 +0200)
+
+> /Users/zenray/Downloads/matthieuphotos/matthieu10.png hop je choisis l'img 2 de la sheet en haut à droite donc divise proprement et ensuite lance le protocole du html qui permet de modifier la peau et via le fond rouge go /zenray-edit donne moi le html qui permet d'edit crée du coup un index2 non? (18 October 2026, 21:18:48 +0200)
+
+## 18 October 2026, 21:19:08 +0200 : Prompt
+
+<!-- feedback-event:6fd1edfa3b795db41b64aa9ef88323084cd4453645a4e21f584ea2ad142e1513 (18 October 2026, 21:19:08 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (18 October 2026, 21:19:08 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:19:08 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-edit (18 October 2026, 21:19:08 +0200)
+>
+> # ZenRay Edit (7 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> Atelier de création et d’édition, de la demande à un média vérifié et modifiable. Lire [ActiveContract.md](references/ActiveContract.md), puis seulement les références du mode utile. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> - Reprendre l’identité Assets existante, son contexte et son feedback avec zenray-assets ; travailler dans l’atelier ou les sources effectivement liées. Une conversation ne se réattribue jamais implicitement. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Pour un texte de Matthieu, corriger uniquement grammaire, orthographe, conjugaison et transcription manifestement erronée. Conserver vocabulaire, rythme, ordre, répétitions et contenu ; réécriture, réorganisation et traduction exigent une demande explicite. Lire [TextEditing.md](references/TextEditing.md). (7 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Chercher un gabarit avant de construire : `node scripts/zr-design.mjs list`, puis `get <id>`. Instancier la définition existante ; paramètres globaux, de famille et d’instance distincts. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Images et post : `python3 scripts/zr-hda-instance.py <source> --dest <atelier/instance> --mode light --post <draft>`. Heavy sert une URL locale pour WebGL ; ouvrir cette URL uniquement dans le navigateur interne. `--force` conserve textes, réglages et sorties, avec historique de code. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Composition : `scripts/new-project.sh <name> <atelier>` puis `<instance>/render.sh`. Le fichier export.json centralise dimensions, facteur, format et limites ; un facteur absent atteint au moins 3840 pixels sur le grand côté. Les sources et le master sont conservés même si une livraison échoue. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Avant traitement média lourd, appliquer ffmpeg-hardware-check ; utiliser PDF, Houdini ou téléchargement seulement si le mode le nécessite. Aucun script historique externe absent ne vaut capacité vérifiée. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Vérifier dimensions, poids, codec/durée et alpha selon le média, regarder le rendu réel en navigateur isolé ; fournir sources et exports identifiés. Archiver via Assets et vérifier le cloud avant de l’annoncer ; publication publique seulement dans le périmètre autorisé. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## Montage / motion design (10 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> - Une vidéo de motion design se reproduit depuis une référence mesurée : analyse, storyboard, paramètres HDA, composition HyperFrames, rendu, contrat de vérification. Méthode complète : `~/.claude/skills/zenray-motion-design/SKILL.md`. (10 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Référence de premier jet : `zenray-motion-design-01` (OneKey Pro 2, 68,05 s), vérifiée par `Verify.py` avec tous les contrôles réussis en v3. (10 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Chaque valeur de marque vit dans `params/tokens.json` ; chaque plan et chaque légende dans `params/timeline.json` ; la chorégraphie dans `params/choreography.json`. Ne jamais recopier une valeur dans le gabarit. (10 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Une référence téléchargée reste dans le scratchpad, sans archivage ni publication ; seul le rendu produit part vers l'atelier. (10 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Rendu : `HYPERFRAMES_BROWSER_PATH` sur le shell géré par HyperFrames, jamais le Chrome personnel. (10 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 11 October 2026 : passe 2, l'animatique : le montage reprend la structure mesurée (coupes, caméra, tempo) et chaque asset manquant devient un emplacement nommé et animé ; les assets faisables en code sont faits, les autres reçoivent un prompt validé avant toute génération. Méthode : section « Passe 2 » de `~/.claude/skills/zenray-motion-design/SKILL.md`. (11 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 11 October 2026 : génération d'assets : Google Flow n'a pas d'API ; la voie conseillée est l'API Gemini (Veo 3.1, images, Lyria) avec une clé rangée par Matthieu dans le trousseau macOS ; rien ne part avant la validation de la fiche A00 et des prompts. (11 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## Modes et références ciblées (7 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> | Mode | Références | Date | (18 October 2026, 21:19:08 +0200)
+> |---|---|---| (18 October 2026, 21:19:08 +0200)
+> | Correction et rédaction | TextEditing.md ; legacy/EditText.md pour historique | 7 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | Photo et cadrage | legacy/PhotoWorkflow.md ; legacy/EditorCorrections.md ; post-editor.md | 7 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | Composition et carrousel | legacy/CompositionFoundation.md ; legacy/CompositionRecipes.md | 7 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | Template depuis référence | template-creator.md ; legacy/DesignLibrary.md | 7 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | PDF | legacy/PdfEditing.md, puis skill PDF si nécessaire | 7 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | Reel et short | legacy/ShortsPipeline.md ; legacy/ShortsCorrections.md | 7 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | UI paramétrique | legacy/ParameterPanels.md ; legacy/UiContract.md ; legacy/NativeUiReference.md si besoin natif | 7 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | Post social et vignette | legacy/SocialText.md ; legacy/VignetteWorkflow.md ; legacy/PostEditorContract.md | 7 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | Montage et motion design | ~/.claude/skills/zenray-motion-design/SKILL.md (analyse, storyboard, HyperFrames, contrat de vérification) | 10 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | Animatique et inventaire d'assets | ~/.claude/skills/zenray-motion-design/SKILL.md, section Passe 2 (caméra mesurée, emplacements nommés, prompts, son, fiche) | 11 October 2026 | (18 October 2026, 21:19:08 +0200)
+> | Titre animé Vogun jaune ou blanc | templates/vogun-yellow-title/README.md (gabarit paramétrique, rendu `RenderTitle.cjs`, preuve) ; règles dans ~/.claude/skills/zenray-houdini/references/shorts/VogunTitles.md | 14 October 2026 | (18 October 2026, 21:19:08 +0200)
+>
+> Les 15 blocs historiques, les corpus d’origine et leur provenance restent consultables par [INDEX.md](references/INDEX.md). Les anciennes consignes sont des recettes historiques ; ActiveContract.md gouverne les commandes actuelles et tranche leurs contradictions. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## Preuves et contrôles (7 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> - `python3 scripts/index-skill.py --verify-only` vérifie les archives historiques et leurs empreintes ; `python3 scripts/CheckContract.py` vérifie les empreintes du bundle courant, routes, catalogue, entrées actives et configuration d’export. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+> - `python3 scripts/verify-post-instance.py <images> <fixture-neuve>` vérifie la reprise sans perte. Les vérificateurs navigateur exigent Playwright disponible dans le runtime, tournent isolés et produisent leurs captures dans la fixture. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+> - Distinguer contrôles structurels, rendu réellement mesuré et cloud réellement vérifié ; une preuve ne couvre que ce qu’elle inspecte. (7 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## 8 October 2026 : Vitesse de rotation uniforme depuis une prise de vue réelle (18 October 2026, 21:19:08 +0200)
+>
+> - 8 October 2026 (demande de Matthieu) : un plateau tournant filmé à la main tourne à vitesse variable (départ à l'arrêt, ralentissement, nouvelle poussée). `python3 scripts/UniformTurn.py <src> <out.mp4> --seconds 5 --fps 24 --size 1080x1920 --k 3` rend un tour à vitesse angulaire constante pour la durée voulue. (8 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 8 October 2026 : méthode mesurée, jamais devinée : corrélation de phase image par image sur une fenêtre centrale (`--win y0,y1,x0,x1` en fractions) donne le décalage horizontal de la surface ; sa somme cumulée est l'angle ; on coupe le début et la fin à l'arrêt (lissage sur 4 images, seuil `--thr`) ; minterpolate mci ×K ; chaque image de sortie prend l'image interpolée dont l'angle tombe sur la droite. Écart-type de vitesse mesuré 2,5 px par image avant, 0,88 après (pot de poterie, 8 October 2026). (8 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 8 October 2026 : limites : une caméra qui bouge ajoute son décalage à la mesure ; le fond de la fenêtre doit être le pot ; sortie sans audio ; la qualité est celle de la source (une source 1024×576 est agrandie en lanczos). Vérifier en remesurant la sortie avec le même script. (8 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 8 October 2026 : titre Vogun jaune : recette dans `zenray-houdini/references/shorts/VogunTitles.md` ; exemple de montage complet (grade, titre trois lignes Vogun et Yu Mincho, easeOutBack d'entrée, rendu alpha ProRes 4444) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/Montage.py`. (8 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## 8 October 2026 : Sound Design / Edit Sound (18 October 2026, 21:19:08 +0200)
+>
+> - 8 October 2026 : mode son : transformer un effet sonore court (interface, jeu) en restant proche de la source ; recette validée `python3 scripts/SoundF1.py <source.flac> <sortie.wav>` (gonflement inversé de 1,2 s, corps une octave plus bas déclenché à −20 ms, réverbération douce), résultat de référence `assets/sound/F1_Trigger_minus20ms.flac`. Protocole complet, mesures et limites : [SoundDesign.md](references/SoundDesign.md). (8 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 8 October 2026 : ajouter ici seulement ce que Matthieu a validé à l'oreille ; les essais non retenus ne se consignent pas. (8 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+>
+> ## 9 October 2026 : tour uniforme SANS fantômes (remplace l'interpolation minterpolate) (18 October 2026, 21:19:08 +0200)
+>
+> - 9 October 2026 : cause des bandes blanches qui apparaissent et disparaissent dans un tour de plateau : `minterpolate` (UniformTurn.py) ne suit pas une surface texturée qui tourne ; il mélange deux positions et des lignes blanches se dédoublent dans une partie des images. Utiliser `python3 scripts/UniformTurnWarp.py <src> <out.mp4> --seconds 12.5` : angle mesuré par corrélation de phase, champ de déplacement horizontal mesuré sur 10 bandes verticales, et l'image source la plus proche est déplacée du reste (au plus une demi-image), sans mélange de deux images. (9 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 9 October 2026 : mesuré sur le pot de poterie : netteté de A 2,56 (source 2,91, ancienne méthode 2,49), irrégularité de netteté d'image à image 0,063 (ancienne méthode 0,121, source 0,104) ; B 0,085 contre 0,119. Une première version qui mélangeait deux images déplacées était plus floue (0,162) : ne jamais mélanger. (9 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 9 October 2026 : limites : un mouvement de caméra à la main reste mesuré avec le pot ; la vitesse d'angle vient d'une fenêtre centrale. Les anciens scripts restent pour comparaison. (9 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 9 October 2026 : montage motion design complet de référence (sous-titres lettre par lettre calés sur le tempo détecté, zooms sur les temps forts, zoom au raccord, SFX calés sur l'attaque mesurée) : projet Assets `poisson-gloss-matthieu-poterie-aix-8-octobre-2026`, `Scripts/FinalMontage3.py`. (9 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## 9 October 2026 : Leçons HTML illustrées et calculateurs procéduraux (18 October 2026, 21:19:08 +0200)
+>
+> - 9 October 2026 (demande de Matthieu) : une leçon se fait en HTML autonome, niveau 12 ans, pas à pas, avec images réelles, schémas SVG, glossaire, quiz et SIMULATIONS interactives (curseurs) plutôt que du texte seul. Exemple de référence : `/Users/zenray/.claude/tmp/tmp-houdini-september-2026/tmp-bayou-louisiana/03_work/lesson-roof-tiles/index.html`. Polices embarquées (InterVariable, AnthropicSerif, AnthropicMono en woff2 copiés depuis `ZenRayProgress/public/fonts`), thème clair et sombre par `:root`. (9 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 9 October 2026 : toute leçon se vérifie dans le navigateur interne sur un serveur local, largeur étroite comprise (aucun débordement horizontal, tables dans un bloc défilant), et ses nombres se recalculent à la main : une erreur de tuiles de 340 px (6 × 340 + 7 × 8 dépasse 2048) a été trouvée en écrivant la leçon. (9 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 9 October 2026 : pour tout système procédural, le calculateur HTML de test est dans le skill `zenray-houdini` : `templates/roof-tile-calculator/index.html`. L'adapter (champs, règle, sorties) à un autre système avant de toucher Houdini. (9 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## 12 October 2026 : Effacer une marque d'une texture (logo, silhouette d'échelle) par greffe de texture (18 October 2026, 21:19:08 +0200)
+>
+> - 12 October 2026 : `python3 scripts/PatchFill.py <in> <out> --crop x,y,w,h --rect x,y,w,h [--rect ...] --search 700 --search-y 12 --ring 18 --feather 16`. Le `--crop` s'applique d'abord (garder la moitié height d'une planche), les rectangles sont en coordonnées après recadrage. Numpy et Pillow seulement, environ 1 s. (12 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 12 October 2026 : méthode : l'anneau de pixels autour du trou est comparé à chaque place candidate par corrélation normalisée plus une pénalité de contraste ; la meilleure place est recopiée dans le trou, sa luminosité calée par un plan ajusté sur l'anneau, puis fondue sur le bord. Rien n'est inventé, la texture vient de la même image. (12 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 12 October 2026 : pièges payés : un simple écart au carré choisit des zones plates et bouche le trou d'une tache lisse ; un calage de luminosité constant laisse un rectangle plus clair ; sur une roche en strates, chercher dans les mêmes rangées (`--search-y` petit) garde les lignes alignées. Vérifier toujours sur un zoom avant/après. (12 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 12 October 2026 : exemple : planche de Javier Perez, moitié droite, silhouette `--rect 126,866,48,96` et logo `--rect 850,910,102,44`, atelier `/Users/zenray/.claude/tmp/tmp-height-javier-perez-clean/`. Un aperçu ombré en gris n'est pas une height linéaire : il sert de référence de mesure, pas de carte finale. (12 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## 14 October 2026 : maquettes du rework Assets et titre Vogun rangés ici (18 October 2026, 21:19:08 +0200)
+>
+> - 14 October 2026 : les trois maquettes du rework ZenRay Assets (Tube, détails, page projet) et leurs décisions sont dans `templates/zenray-assets-mockups/rework-12-october-2026/` ; son README donne les choix de Matthieu et le code de production correspondant. (14 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 14 October 2026 : le titre animé Vogun jaune `#FFFF00` de Vegetation Collection 01 est un gabarit paramétrique dans `templates/vogun-yellow-title/` (durées, lignes, couleur et ombre dans un JSON, rendu 4K transparent par `RenderTitle.cjs`). (14 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## 14 October 2026 : tout index de design est rangé automatiquement (18 October 2026, 21:19:08 +0200)
+>
+> - 14 October 2026 : dès qu'un index de design (galerie de propositions) est créé pour Matthieu, la dernière étape est `node ~/.claude/skills/zenray-edit/scripts/file-design.mjs <atelier> --slug <slug> --title "<titre>" --module <module> --project <id-assets>`. Il copie l'index dans `designs/<date>-<slug>/` (polices partagées), ajoute une ligne au registre `designs/INDEX.md` et, avec `--project`, copie l'index dans `Memory1/Projects/<id>/Designs/`. Sans cette étape le design n'est pas fini. (14 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 14 October 2026 : son choix s'ajoute par `file-design.mjs --decide <slug> --choice <A|B|C>`, jamais en réécrivant une ligne. `designs/` est un registre vivant, hors du lot attesté par `CheckContract.py`. (14 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 14 October 2026 : la lecture du registre par projet dans `zenray-assets` n'existe pas encore ; aujourd'hui seule la copie dans la mémoire du projet est faite (colonne « Projet Assets » du registre). (14 October 2026) (18 October 2026, 21:19:08 +0200)
+>
+> ## 18 October 2026 : archivage automatique dans le projet ZenRay Assets `zenray-edit` et typographie Medium `500` (18 October 2026, 21:19:08 +0200)
+>
+> - 18 October 2026 : à chaque appel, `scripts/file-design.mjs` copie l'index dans `designs/<date>-<slug>/`, ajoute la ligne à `designs/INDEX.md`, copie systématiquement dans le projet ZenRay Assets `zenray-edit` (`Memory1/Projects/zenray-edit/Designs/<folder>/` et `~/.claude/tmp/tmp-zenray-edit/Designs/<folder>/`, plus `--project <id>` si fourni), lance `sync-skill.sh zenray-edit` et déclenche `Client.mjs inventory zenray-edit` puis `Client.mjs archive zenray-edit`. (18 October 2026) (18 October 2026, 21:19:08 +0200)
+> - 18 October 2026 : interdiction absolue de toute fonte Light (`300`/`350`, `AnthropicSerif-Light.ttf` banni car trop AI-like). Utiliser uniquement `AnthropicSerif Medium` (`AnthropicSerif-Medium.ttf`, `500`) et `InterVariable Medium` (`500`). (18 October 2026) (18 October 2026, 21:19:08 +0200)
+
+## 18 October 2026, 21:20:01 +0200 : Iteration
+
+<!-- feedback-event:326db75e0a6bf7208b4c365c7c0597366543fbc5e69ab24a8429ec389127b8d9 (18 October 2026, 21:20:01 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (18 October 2026, 21:20:01 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:20:01 +0200)
+
+> L'image 2 est découpée proprement (624 × 622, sans trace du trait blanc). Je lance maintenant le protocole : masque, visage, puis le nouveau HTML `SkinBgPicker2`. (18 October 2026, 21:20:01 +0200)
+
+## 18 October 2026, 21:21:06 +0200 : Iteration
+
+<!-- feedback-event:fc6d1fbab61bf53fbde6ba58b6708e01b90ab1af6d77e2eb928ca04165c46343 (18 October 2026, 21:21:06 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (18 October 2026, 21:21:06 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:21:06 +0200)
+
+> Je compare maintenant ces valeurs du navigateur avec le rendu Python, sur la même image. (18 October 2026, 21:21:06 +0200)
+
+## 18 October 2026, 21:26:29 +0200 : Iteration
+
+<!-- feedback-event:14d7e81265016f002886ba90eba38b084e44b6bc8d4ee0ded3c0c7d3511488ad (18 October 2026, 21:26:29 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (18 October 2026, 21:26:29 +0200)
+- Source: checkpoint:claude:2ce02bbc-dad5-488e-9ffc-51313c488339. (18 October 2026, 21:26:29 +0200)
+
+> 18 October 2026 : image 2 de la planche matthieu10 découpée (624x622), source déplacée dans Sources/, masque et visage faits, outil Index2/index.html créé et rangé par file-design.mjs, 22 nouveaux fichiers archivés avec reçu SHA identique. Prochain geste : régler peau et fond dans Index2 et coller les valeurs. (18 October 2026, 21:26:29 +0200)
+
+## 18 October 2026, 21:26:45 +0200 : Iteration
+
+<!-- feedback-event:322836ce897f3d05df39b7d9f82474874ffa8e4264cfa4bd19ed5643306d1e40 (18 October 2026, 21:26:45 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (18 October 2026, 21:26:45 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:26:45 +0200)
+
+> L'image 2 est découpée et prête, et l'Index2 est créé : [/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Index2/index.html](/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Index2/index.html). C'est un fichier autonome, ouvrable par double-clic. (18 October 2026, 21:26:45 +0200)
+>
+> **Découpe.** La planche faisait 1254 × 1254 avec des traits blancs de séparation. Je les ai mesurés (colonnes 625 à 628, lignes 623 à 627) et j'ai coupé avec 1 px de marge. L'image 2 fait 624 × 622 px et il ne reste aucune trace du trait. Les quatre portraits sont rangés à côté dans `Sources/matthieu10-split/`. La planche d'origine a été déplacée de Downloads vers `Sources/`. (18 October 2026, 21:26:45 +0200)
+>
+> **Protocole.** Le masque couvre bien les boucles et le visage est détecté. L'outil démarre comme avant, sur le fond rouge debug avec le teint cyan, pour contrôler le masque, puis tu règles : (18 October 2026, 21:26:45 +0200)
+>
+> - les curseurs de peau (bleu → naturel, réglage fin, saturation, lumière) ; (18 October 2026, 21:26:45 +0200)
+> - le reflet de la chemise ; (18 October 2026, 21:26:45 +0200)
+> - le fond : rouge debug, ou 5 nuances de gris avec noir ↔ blanc ; (18 October 2026, 21:26:45 +0200)
+> - le recadrage du bas et les formats 1:1, 4:5, 16:9 et 9:16, avec la vue des 4 fonds en bas de page. (18 October 2026, 21:26:45 +0200)
+>
+> Pour reprendre tes derniers réglages (peau naturelle, Taupe 35 %), colle-les avec « Coller des valeurs » en ajoutant `"source":"10"` : le README les donne. J'ai aussi appliqué ces réglages à ton image 2, avec le résultat à droite de [Src10_before-after.png](/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Composed/Src10_before-after.png). Les lèvres et le menton restent naturels sur cette pose de trois quarts. (18 October 2026, 21:26:45 +0200)
+>
+> Quand tu as fini, copie les valeurs et colle-les avec `/zenray-edit`. Comme avant, elles se rejouent à pleine résolution avec `Compose.py`, avec `"source":"10"`. (18 October 2026, 21:26:45 +0200)
+>
+> **Limite.** La planche d'origine ne fait que 1254 px, donc chaque portrait n'en fait que 624. Les exports seront plus petits que ceux de la première image (1043 px en 1:1 pour elle, environ 620 px ici). Pour plus de définition, il faudrait une planche ou un portrait généré en plus haute résolution. (18 October 2026, 21:26:45 +0200)
+>
+> **Changements au passage :** (18 October 2026, 21:26:45 +0200)
+> - J'ai rangé l'outil avec `file-design.mjs`, comme l'exige le skill (dossier `2026-10-18-skin-bg-picker-matthieu10-img2`). (18 October 2026, 21:26:45 +0200)
+> - J'ai mis l'outil à la typographie Medium 500, avec les polices embarquées (InterVariable, AnthropicSerif, AnthropicMono). Le premier outil a été reconstruit de la même façon. (18 October 2026, 21:26:45 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (18 October 2026, 21:26:45 +0200)
+> |---|---|---| (18 October 2026, 21:26:45 +0200)
+> | Diviser proprement la planche et prendre l'image 2 | Oui | Séparateurs mesurés, crop relu, aucune trace de trait | (18 October 2026, 21:26:45 +0200)
+> | Lancer le protocole peau et fond rouge | Oui | Masque et vue rouge relus, défaut égal à la vue debug (écart 0,0) | (18 October 2026, 21:26:45 +0200)
+> | Un nouveau HTML d'édition, l'Index2 | Oui | Testé dans le navigateur ; même rendu que Python à 0,23 sur 255 près sur 3 réglages | (18 October 2026, 21:26:45 +0200)
+> | Tout envoyé dans le cloud | Presque tout | 22 nouveaux fichiers sur 22 identiques à leurs reçus, 4 fichiers clés relus depuis GitHub. 4 fichiers de reprise de la conversation changent encore et partiront au prochain passage | (18 October 2026, 21:26:45 +0200)
+
+## 18 October 2026, 21:26:49 +0200 : Prompt
+
+<!-- feedback-event:1b167b782db98a27621153bd168446b39cca2dc0cbd19be1368e2f5bd110c868 (18 October 2026, 21:26:49 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (18 October 2026, 21:26:49 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:26:49 +0200)
+
+> go compute le result {"tool":"skin-bg-picker/1","source":"5","skin":{"blue_to_natural":1,"hue_fine_deg":0,"saturation":1.33,"light":0},"shirt":{"cast_to_neutral":1},"frame":{"crop_bottom":0},"formats":{"zoom":1,"eye_line":0.38,"x_shift":-0.14},"bg":{"mode":"gray","red_hue_shift_deg":88,"red_saturation":0,"gray_tone":"Taupe","level":0.25,"gradient":1,"tint":1}} et donne moi les path de 4:5 et 1:1 (18 October 2026, 21:26:49 +0200)
+
+## 18 October 2026, 21:28:07 +0200 : Iteration
+
+<!-- feedback-event:5adcc9356ee7391ff8ea7426fabbb65565bab78f8555402224aff4b7dcd780c3 (18 October 2026, 21:28:07 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (18 October 2026, 21:28:07 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:28:07 +0200)
+
+> Les valeurs sont calculées en pleine résolution : Taupe à 25 %, peau naturelle à 1,33, décalage horizontal de −14 %. (18 October 2026, 21:28:07 +0200)
+>
+> **Source 5 (`matthieu pro 4.png`), comme indiqué dans ton JSON :** (18 October 2026, 21:28:07 +0200)
+> - 1:1 (1086 × 1086) : [/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Composed/Final2_Taupe25_18-October-2026_1x1.png](/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Composed/Final2_Taupe25_18-October-2026_1x1.png) (18 October 2026, 21:28:07 +0200)
+> - 4:5 (869 × 1086) : [/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Composed/Final2_Taupe25_18-October-2026_4x5.png](/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Composed/Final2_Taupe25_18-October-2026_4x5.png) (18 October 2026, 21:28:07 +0200)
+>
+> **Image 2 de la planche matthieu10, si tu visais celle-là :** ton JSON indiquait la source 5, que j'ai calculée en priorité. L'Index2 ne contient que l'image 2, alors j'ai aussi rendu les mêmes valeurs sur elle, par précaution. (18 October 2026, 21:28:07 +0200)
+> - 1:1 (622 × 622) : [/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Composed/Final2_matthieu10-img2_Taupe25_18-October-2026_1x1.png](/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Composed/Final2_matthieu10-img2_Taupe25_18-October-2026_1x1.png) (18 October 2026, 21:28:07 +0200)
+> - 4:5 (498 × 622) : [/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Composed/Final2_matthieu10-img2_Taupe25_18-October-2026_4x5.png](/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/Composed/Final2_matthieu10-img2_Taupe25_18-October-2026_4x5.png) (18 October 2026, 21:28:07 +0200)
+>
+> Sur la source 5, ton réglage de recadrage du bas est à 0 %, donc un coin de ton bras reste visible en bas à gauche, sur le 1:1 comme sur le 4:5. À 4 % il disparaît, comme sur la version précédente. Dis-le et je refais les deux formats. (18 October 2026, 21:28:07 +0200)
+>
+> Les 10 fichiers produits sont aussi archivés dans le cloud via Assets, avec un reçu SHA identique à chaque fichier local. Je n'ai pas relu les manifestes sur GitHub cette fois, seulement les reçus du service. (18 October 2026, 21:28:07 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (18 October 2026, 21:28:07 +0200)
+> |---|---|---| (18 October 2026, 21:28:07 +0200)
+> | Calculer le résultat de ces valeurs | Oui | 1:1 et 4:5 relus à l'œil, tailles mesurées | (18 October 2026, 21:28:07 +0200)
+> | Les chemins du 4:5 et du 1:1 | Oui | Chemins ci-dessus, fichiers présents | (18 October 2026, 21:28:07 +0200)

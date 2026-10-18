@@ -1,22 +1,22 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-18T19:14:54.789Z",
+ "scannedAt": "2026-10-18T19:28:55.582Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 37,
-   "work": 2,
+   "lines": 60,
+   "work": 5,
    "prompts": 0,
    "first": "2026-10-17T15:03:22.774Z",
-   "last": "2026-10-18T19:12:36.842Z",
-   "strength": "weak",
+   "last": "2026-10-18T19:28:07.790Z",
+   "strength": "strong",
    "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "StudioPhoto",
-   "updatedAt": "2026-10-18T19:12:52.572Z",
-   "bytes": 16613367,
+   "updatedAt": "2026-10-18T19:28:10.146Z",
+   "bytes": 36707,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
@@ -31,8 +31,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T19:14:04.040Z",
-   "bytes": 22439,
+   "updatedAt": "2026-10-18T19:28:41.170Z",
+   "bytes": 370966857,
    "boundProject": null
   },
   {
