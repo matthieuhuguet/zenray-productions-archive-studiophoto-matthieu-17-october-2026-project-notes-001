@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-18T23:19:37.840Z",
+ "scannedAt": "2026-10-18T23:37:37.748Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -21,18 +21,18 @@
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 4,
+   "lines": 5,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-17T19:56:40.225Z",
-   "last": "2026-10-18T19:42:08.345Z",
+   "last": "2026-10-18T23:35:20.588Z",
    "strength": "weak",
    "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T22:52:07.963Z",
-   "bytes": 22320,
+   "updatedAt": "2026-10-18T23:37:33.945Z",
+   "bytes": 394180003,
    "boundProject": null
   },
   {
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-18T23:18:04.795Z",
-   "bytes": 37232,
+   "updatedAt": "2026-10-18T23:34:00.390Z",
+   "bytes": 77391856,
    "boundProject": null
   },
   {
