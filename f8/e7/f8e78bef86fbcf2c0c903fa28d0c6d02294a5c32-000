@@ -21,3 +21,9 @@
 ## 18 October 2026 : prompt de génération d'image
 
 - Prompt de génération pour une IA de type ChatGPT Image (grille 2 × 2, fond gris anthracite froid, t-shirt blanc, écouteurs retirés, barbe légèrement retirée), conservé mot pour mot dans `PromptGenerationMatthieuPhoto-18-October-2026.md`, en deux copies identiques : l'atelier `/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/` et ce dossier. Les deux sont archivées dans le cloud, SHA-256 `9c250ecea737` relu depuis GitHub pour chacune (18 October 2026). (18 October 2026)
+
+## 18 October 2026 : image 2 de la planche matthieu10, outil Index2
+
+- Matthieu choisit l'image 2 (haut droite) de la planche `Sources/matthieu10.png` (1254 × 1254, quatre portraits séparés par un trait blanc). Découpe mesurée, pas devinée : séparateurs aux colonnes 625 à 628 et aux lignes 623 à 627, marge de 1 px, soit 624 × 622 px pour l'image 2. (18 October 2026)
+- Nouvel outil `Index2/index.html` (même moteur que `SkinBgPicker.html`, une seule source, polices embarquées en Medium 500 depuis le 18 October 2026, règle de typographie du jour). Il démarre sur la vue debug rouge, qui sert à contrôler le masque avant de régler la peau. Rangé aussi par `file-design.mjs` dans le registre des designs de zenray-edit (dossier `2026-10-18-skin-bg-picker-matthieu10-img2`). (18 October 2026)
+- Mesuré (18 October 2026) : par défaut l'outil égale la vue debug (écart 0,0), et le navigateur égale Python à 0,23 sur 255 au plus sur les moyennes par zone (3 réglages). Les derniers réglages de peau donnent sur cette pose de trois quarts des lèvres et un menton naturels, sans zone bleue. (18 October 2026)
