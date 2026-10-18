@@ -1751,3 +1751,115 @@
 > | Un paramètre de version sur la photo pour des changements instantanés | Oui | Image servie avec `?v=7fe19ebffc`, identique octet pour octet à `public/me.webp` | (17 October 2026, 18:07:10 +0200)
 > | Redéployer | Oui | HTML en ligne versionné aux 3 endroits, 5 routes en 200, navigateur vierge qui charge la bonne image | (17 October 2026, 18:07:10 +0200)
 > | Voir la photo chez toi | À toi | Rechargement forcé de l'onglet (Cmd+Maj+R) | (17 October 2026, 18:07:10 +0200)
+
+## 18 October 2026, 21:00:34 +0200 : Prompt
+
+<!-- feedback-event:70838e9b624d571cfac90abb3b3f14bde072ea37d80d81fdc396a0e34a1dfc15 (18 October 2026, 21:00:34 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (18 October 2026, 21:00:34 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:00:34 +0200)
+
+> append dans un .md ce prompt de génération et push sur le cloud via assets même projet. je veux que tu me confirmes que c'est envoyé. (18 October 2026, 21:00:34 +0200)
+> PromptGenerationMatthieuPhoto faire une copie dans memory aussi  (18 October 2026, 21:00:34 +0200)
+> Pour AI Gen type chatgpt image (18 October 2026, 21:00:34 +0200)
+> Text = " (18 October 2026, 21:00:34 +0200)
+>
+> <pasted_content id="ba2c"> (18 October 2026, 21:00:34 +0200)
+> À partir des images de référence fournies, réalise une photographie de portrait professionnel haut de gamme, avec un éclairage de studio doux, naturel et parfaitement maîtrisé. (18 October 2026, 21:00:34 +0200)
+> IDENTITÉ DU SUJET (PRIORITÉ ABSOLUE) (18 October 2026, 21:00:34 +0200)
+>
+> * Le sujet à conserver est la personne présente dans la première image ou dans la grille de quatre portraits. (18 October 2026, 21:00:34 +0200)
+> * La seconde photographie sert exclusivement de référence pour l'éclairage, la colorimétrie et l'ambiance photographique. Ne jamais utiliser son visage ou ses caractéristiques physiques. (18 October 2026, 21:00:34 +0200)
+> * Préserver strictement l'identité, les proportions, la morphologie et les caractéristiques réelles du visage. (18 October 2026, 21:00:34 +0200)
+> * Ne pas grossir, élargir, affiner ou remodeler les traits du visage. (18 October 2026, 21:00:34 +0200)
+> * Conserver la structure du nez, des yeux, des pommettes, de la mâchoire, des lèvres et du menton. (18 October 2026, 21:00:34 +0200)
+> * Préserver la texture naturelle de la peau, sans lissage artificiel ni effet de beauté généré par IA. (18 October 2026, 21:00:34 +0200)
+> * Conserver l'expression d'origine avec un léger sourire détendu, subtil, naturel et professionnel. (18 October 2026, 21:00:34 +0200)
+> * Une éventuelle correction de symétrie doit rester extrêmement discrète et ne jamais altérer l'identité. (18 October 2026, 21:00:34 +0200)
+>
+> ÉCLAIRAGE PHOTOGRAPHIQUE DE STUDIO (18 October 2026, 21:00:34 +0200)
+>
+> * Utiliser l'éclairage de la seconde photographie comme référence principale et l'appliquer au visage, aux cheveux et aux vêtements du sujet original. (18 October 2026, 21:00:34 +0200)
+> * Éclairer le visage principalement de face avec une source lumineuse large, diffuse et très douce, similaire au rendu d'une grande softbox de studio. (18 October 2026, 21:00:34 +0200)
+> * Atténuer les ombres latérales trop prononcées afin d'obtenir une illumination homogène, flatteuse et naturelle. (18 October 2026, 21:00:34 +0200)
+> * Préserver un modelé subtil du visage pour conserver ses volumes et sa profondeur, sans obtenir un éclairage plat. (18 October 2026, 21:00:34 +0200)
+> * Éviter les zones surexposées, les reflets excessifs et les contrastes artificiels. (18 October 2026, 21:00:34 +0200)
+> * Ajouter une séparation lumineuse extrêmement subtile entre les cheveux bouclés foncés et l'arrière-plan, afin de préserver leur silhouette, leur texture et leur volume. (18 October 2026, 21:00:34 +0200)
+> * Conserver une transition douce et progressive entre les hautes lumières, les demi-teintes et les ombres. (18 October 2026, 21:00:34 +0200)
+> * Obtenir une lumière photographique réaliste, avec un contraste maîtrisé et des couleurs de peau crédibles. (18 October 2026, 21:00:34 +0200)
+>
+> ARRIÈRE-PLAN ET COLORIMÉTRIE (18 October 2026, 21:00:34 +0200)
+>
+> * Remplacer le fond par un gris foncé anthracite, légèrement froid ou bleuté, choisi pour s'harmoniser naturellement avec la colorimétrie du visage et du vêtement. (18 October 2026, 21:00:34 +0200)
+> * Utiliser un fond studio neutre, minimaliste et élégant. (18 October 2026, 21:00:34 +0200)
+> * Conserver suffisamment de séparation entre le sujet et le fond, notamment autour des cheveux. (18 October 2026, 21:00:34 +0200)
+> * Éviter le noir pur, les dégradés excessifs, les halos artificiels et les éléments distrayants. (18 October 2026, 21:00:34 +0200)
+> * Maintenir une cohérence parfaite de température de couleur entre le visage, les cheveux, les vêtements et le fond. (18 October 2026, 21:00:34 +0200)
+>
+> VÊTEMENTS ET ACCESSOIRES (18 October 2026, 21:00:34 +0200)
+>
+> * Porter un t-shirt blanc uni de qualité, avec une coupe propre, sobre et professionnelle. (18 October 2026, 21:00:34 +0200)
+> * Lisser les plis disgracieux du t-shirt tout en préservant la texture réaliste du tissu. (18 October 2026, 21:00:34 +0200)
+> * Conserver des plis naturels légers pour éviter un aspect artificiel. (18 October 2026, 21:00:34 +0200)
+> * Supprimer entièrement les écouteurs présents dans les oreilles, en reconstruisant proprement les parties éventuellement masquées. (18 October 2026, 21:00:34 +0200)
+> * Ne pas ajouter d'accessoires inutiles. (18 October 2026, 21:00:34 +0200)
+> * Conserver une apparence décontractée mais soignée, adaptée au profil d'un 3D Technical Artist dans l'industrie du jeu vidéo. (18 October 2026, 21:00:34 +0200)
+>
+> CADRAGE ET COMPOSITION (18 October 2026, 21:00:34 +0200)
+>
+> * Utiliser un cadrage de portrait professionnel, équilibré et précis, privilégiant le visage et le haut du buste. (18 October 2026, 21:00:34 +0200)
+> * Conserver les proportions réelles de la tête et des épaules. (18 October 2026, 21:00:34 +0200)
+> * Éviter toute déformation de perspective ou toute modification de la morphologie. (18 October 2026, 21:00:34 +0200)
+> * Garder les cheveux bouclés visibles et correctement détachés du fond. (18 October 2026, 21:00:34 +0200)
+> * Obtenir un portrait qui inspire confiance, compétence, créativité et authenticité, sans paraître excessivement corporate. (18 October 2026, 21:00:34 +0200)
+> * Le résultat doit pouvoir être utilisé sur LinkedIn, un portfolio professionnel et un site personnel. (18 October 2026, 21:00:34 +0200)
+>
+> QUALITÉ ET FINITION (18 October 2026, 21:00:34 +0200)
+>
+> * Rendu photographique réaliste, propre et haute définition. (18 October 2026, 21:00:34 +0200)
+> * Qualité d'une véritable séance photo réalisée en studio professionnel. (18 October 2026, 21:00:34 +0200)
+> * Retouches minimales et invisibles. (18 October 2026, 21:00:34 +0200)
+> * Aucun effet de peau plastique, aucun aspect synthétique, aucune modification significative de l'identité. (18 October 2026, 21:00:34 +0200)
+> * Priorité à l'équilibre de la lumière, à la fidélité du visage et à la cohérence colorimétrique. (18 October 2026, 21:00:34 +0200)
+>
+> FORMAT DE SORTIE (18 October 2026, 21:00:34 +0200)
+> Produire une sheet de quatre propositions avec une disposition en grille 2 × 2. Chaque portrait doit conserver strictement le même sujet et les mêmes caractéristiques faciales. Les variations doivent porter uniquement sur de très légères nuances d'éclairage, de contraste et de colorimétrie. (18 October 2026, 21:00:34 +0200)
+> Appliquer toutes les corrections demandées aux quatre portraits, sans exception. (18 October 2026, 21:00:34 +0200)
+> OBJECTIF FINAL (18 October 2026, 21:00:34 +0200)
+> Un portrait de studio professionnel, élégant, moderne, crédible et parfaitement naturel. Une image qui inspire confiance tout en préservant intégralement la personnalité et l'identité du sujet. Le résultat doit ressembler à une excellente photographie réelle, et non à un portrait artificiellement généré. (18 October 2026, 21:00:34 +0200)
+>
+> enlève légèrement la barbe. (18 October 2026, 21:00:34 +0200)
+> </pasted_content id="ba2c"> (18 October 2026, 21:00:34 +0200)
+>
+> " (18 October 2026, 21:00:34 +0200)
+
+## 18 October 2026, 21:03:33 +0200 : Iteration
+
+<!-- feedback-event:4e9baf8eb115f4651ef969be263fc9d73cb0f36a40822637532e4bcd6151afb3 (18 October 2026, 21:03:33 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (18 October 2026, 21:03:33 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:03:33 +0200)
+
+> La copie du projet TMP est archivée avec un reçu identique. La copie Memory attend encore son tour dans la rotation des sources ; je la demande explicitement. (18 October 2026, 21:03:33 +0200)
+
+## 18 October 2026, 21:05:07 +0200 : Iteration
+
+<!-- feedback-event:a4abc6ab507035037502e7f05732ae663737b153a067ff8387fa161f1a2061dc (18 October 2026, 21:05:07 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (18 October 2026, 21:05:07 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (18 October 2026, 21:05:07 +0200)
+
+> Oui, c'est envoyé, et je l'ai vérifié. J'ai relu depuis GitHub le manifeste et le morceau stocké de chacune des deux copies. Leur SHA-256 (`9c250ecea737…`) et leur taille (5 591 octets) sont identiques à ceux des fichiers locaux. (18 October 2026, 21:05:07 +0200)
+>
+> Le fichier s'appelle `PromptGenerationMatthieuPhoto-18-October-2026.md`. Il contient ton prompt mot pour mot, y compris « enlève légèrement la barbe ». J'ai ajouté en tête une ligne qui précise qu'il est fait pour une IA de type ChatGPT Image, avec la grille de quatre portraits et la photo de lumière. La date est au nouveau format, jour en nombre, mois en lettres, année. (18 October 2026, 21:05:07 +0200)
+>
+> Deux copies identiques, toutes deux archivées dans le même projet Assets, `studiophoto-matthieu-17-october-2026` : (18 October 2026, 21:05:07 +0200)
+>
+> - **Atelier du projet** : [/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/PromptGenerationMatthieuPhoto-18-October-2026.md](/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/PromptGenerationMatthieuPhoto-18-October-2026.md) (18 October 2026, 21:05:07 +0200)
+> - **Memory** : [/Users/zenray/.claude/Memory1/Projects/studiophoto-matthieu-17-october-2026/PromptGenerationMatthieuPhoto-18-October-2026.md](/Users/zenray/.claude/Memory1/Projects/studiophoto-matthieu-17-october-2026/PromptGenerationMatthieuPhoto-18-October-2026.md) (18 October 2026, 21:05:07 +0200)
+>
+> La copie Memory est aussi commitée dans le dépôt Memory. J'ai noté le prompt dans `Project1.md` et le journal. (18 October 2026, 21:05:07 +0200)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (18 October 2026, 21:05:07 +0200)
+> |---|---|---| (18 October 2026, 21:05:07 +0200)
+> | Le prompt dans un .md, nommé PromptGenerationMatthieuPhoto | Oui | 2 fichiers identiques, 5 591 octets | (18 October 2026, 21:05:07 +0200)
+> | Une copie dans Memory | Oui | Copie présente et commitée dans le dépôt Memory | (18 October 2026, 21:05:07 +0200)
+> | Poussé sur le cloud via Assets, même projet | Oui | 2 reçus d'archive avec SHA identique | (18 October 2026, 21:05:07 +0200)
+> | Confirmation que c'est envoyé | Oui | Manifestes et morceaux relus depuis GitHub, SHA égal au fichier local | (18 October 2026, 21:05:07 +0200)

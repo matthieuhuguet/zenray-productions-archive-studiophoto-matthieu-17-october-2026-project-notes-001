@@ -17,3 +17,7 @@
 ## 17 October 2026 : décision sur la photo du site
 
 - Décision de Matthieu (17 October 2026) : la photo de matthieuhuguet.com reste en couleur, aucune version noir et blanc, rien à redéployer. L'ancienne `me.webp` en niveaux de gris n'est plus conservée que dans l'historique Git de ZenRayWebsite (commit 240c67c). (17 October 2026)
+
+## 18 October 2026 : prompt de génération d'image
+
+- Prompt de génération pour une IA de type ChatGPT Image (grille 2 × 2, fond gris anthracite froid, t-shirt blanc, écouteurs retirés, barbe légèrement retirée), conservé mot pour mot dans `PromptGenerationMatthieuPhoto-18-October-2026.md`, en deux copies identiques : l'atelier `/Users/zenray/.claude/tmp/tmp-studiophoto-matthieu-17-october-2026/` et ce dossier. Les deux sont archivées dans le cloud, SHA-256 `9c250ecea737` relu depuis GitHub pour chacune (18 October 2026). (18 October 2026)
