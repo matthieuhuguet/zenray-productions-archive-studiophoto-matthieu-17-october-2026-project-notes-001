@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-18T20:02:55.403Z",
+ "scannedAt": "2026-10-18T20:10:55.428Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -31,8 +31,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "3 motion design and editing video",
-   "updatedAt": "2026-10-18T20:02:44.969Z",
-   "bytes": 380074311,
+   "updatedAt": "2026-10-18T20:10:44.733Z",
+   "bytes": 380978134,
    "boundProject": null
   },
   {
