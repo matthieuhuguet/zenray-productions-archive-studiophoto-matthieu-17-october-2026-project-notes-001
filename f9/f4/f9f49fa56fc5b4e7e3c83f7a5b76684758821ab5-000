@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-19T22:21:25.746Z",
+ "scannedAt": "2026-10-19T22:45:25.821Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -31,8 +31,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-19T22:20:35.877Z",
-   "bytes": 165647170,
+   "updatedAt": "2026-10-19T22:44:49.960Z",
+   "bytes": 167448233,
    "boundProject": null
   },
   {
@@ -49,6 +49,22 @@
    "title": "3 motion design and editing video",
    "updatedAt": "2026-10-18T23:39:36.416Z",
    "bytes": 22317,
+   "boundProject": null
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-19T22:28:36.987Z",
+   "last": "2026-10-19T22:28:36.987Z",
+   "strength": "weak",
+   "conversationId": "claude:8e5e976b-267a-433f-8e7f-c138fcf9f1da",
+   "provider": "claude",
+   "sessionId": "8e5e976b-267a-433f-8e7f-c138fcf9f1da",
+   "title": "Capture Switch input via MacBook HDMI",
+   "updatedAt": "2026-10-19T22:41:15.710Z",
+   "bytes": 36657,
    "boundProject": null
   },
   {
