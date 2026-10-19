@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-19T09:11:04.195Z",
+ "scannedAt": "2026-10-19T09:24:04.079Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -21,18 +21,18 @@
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 5,
+   "lines": 6,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-18T08:34:45.394Z",
-   "last": "2026-10-19T09:09:10.856Z",
+   "last": "2026-10-19T09:23:05.679Z",
    "strength": "weak",
    "conversationId": "claude:a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-19T09:10:23.524Z",
-   "bytes": 89380102,
+   "updatedAt": "2026-10-19T09:23:42.837Z",
+   "bytes": 92561205,
    "boundProject": null
   },
   {
