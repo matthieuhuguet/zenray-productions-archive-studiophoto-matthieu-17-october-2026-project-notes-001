@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-19T17:40:11.798Z",
+ "scannedAt": "2026-10-19T17:51:11.824Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -31,8 +31,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "2 louisiana bayou video",
-   "updatedAt": "2026-10-19T17:40:09.064Z",
-   "bytes": 138531734,
+   "updatedAt": "2026-10-19T17:51:07.166Z",
+   "bytes": 141905887,
    "boundProject": null
   },
   {
