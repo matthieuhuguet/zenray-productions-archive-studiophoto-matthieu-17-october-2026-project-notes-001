@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-20T11:34:33.331Z",
+ "scannedAt": "2026-10-20T11:50:34.044Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -31,8 +31,8 @@
    "provider": "claude",
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology",
-   "updatedAt": "2026-10-20T11:34:23.507Z",
-   "bytes": 234173782,
+   "updatedAt": "2026-10-20T11:49:42.240Z",
+   "bytes": 237909396,
    "boundProject": null
   },
   {
@@ -49,6 +49,22 @@
    "title": "3 motion design and editing video",
    "updatedAt": "2026-10-18T23:39:36.416Z",
    "bytes": 22317,
+   "boundProject": null
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-20T11:46:59.545Z",
+   "last": "2026-10-20T11:46:59.545Z",
+   "strength": "weak",
+   "conversationId": "claude:e404b8fe-5771-41e1-b7bb-5f6111652bf6",
+   "provider": "claude",
+   "sessionId": "e404b8fe-5771-41e1-b7bb-5f6111652bf6",
+   "title": "Consigner le sharingan",
+   "updatedAt": "2026-10-20T11:50:05.044Z",
+   "bytes": 1967584,
    "boundProject": null
   },
   {
