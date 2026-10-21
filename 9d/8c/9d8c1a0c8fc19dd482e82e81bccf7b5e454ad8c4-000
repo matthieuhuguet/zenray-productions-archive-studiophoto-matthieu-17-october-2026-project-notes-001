@@ -6032,3 +6032,26 @@
 > matthieuhuguet/zenray-index-public (21 October 2026, 16:32:50 +0200)
 > zenray@Matthieus-MacBook-Pro ~ % (21 October 2026, 16:32:50 +0200)
 > </pasted_content id="ba2c"> (21 October 2026, 16:32:50 +0200)
+
+## 21 October 2026, 16:44:13 +0200 : Iteration
+
+<!-- feedback-event:cd7c67cb8caaee95a48dcf86e88c9bf0ecfec36269b2b72478b56bf7dccf22f5 (21 October 2026, 16:44:13 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (21 October 2026, 16:44:13 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (21 October 2026, 16:44:13 +0200)
+
+> L'index de recherche refonctionne : le nouveau dépôt `zenray-index-public` accepte les écritures, et les chemins en attente se sont indexés (775 → 4), avec de vrais commits « index delta +N ». (21 October 2026, 16:44:13 +0200)
+>
+> - **Ce que j'ai fait :** (21 October 2026, 16:44:13 +0200)
+>   - Le client lit toujours `.../zenray-index-public/main` : l'adresse est inchangée et le `head.json` servi est identique à la sauvegarde. (21 October 2026, 16:44:13 +0200)
+>   - J'ai effacé `IndexedPaths.txt` et la pause d'index, rechargé le service, vérifié une écriture d'essai (puis retiré son chemin du delta). (21 October 2026, 16:44:13 +0200)
+>   - J'ai documenté tout cela dans le skill et dans le journal. (21 October 2026, 16:44:13 +0200)
+>   - Le code est poussé sur `origin/main`. (21 October 2026, 16:44:13 +0200)
+> - **À faire de votre côté, quand vous voulez :** supprimer l'ancien dépôt de 105 Go, `zenray-index-public-old-21-October-2026`. Je ne l'ai pas supprimé, ce qui reste réversible. (21 October 2026, 16:44:13 +0200)
+> - **Contrat du skill Assets :** il est rouge, à cause de trois fichiers de l'article de projet (`assetsProjectArticle.js`, son test et `ProjectWorkspace.jsx`). Une autre session les a modifiés après son enregistrement, ce ne sont pas les miens. Il faudra relancer `CheckSkillContract.mjs --record` quand son travail sera fini. (21 October 2026, 16:44:13 +0200)
+>
+> | Ce que vous vouliez | Fait ? | Comment je le sais | (21 October 2026, 16:44:13 +0200)
+> |---|---|---| (21 October 2026, 16:44:13 +0200)
+> | Aucune donnée perdue | Oui | Arbre du nouveau dépôt identique à l'ancien (29 fichiers, mêmes hashes) ; sauvegarde dans `/Users/zenray/.claude/tmp/tmp-index-public-backup-21-October-2026` | (21 October 2026, 16:44:13 +0200)
+> | Recherche de nouveau alimentée | Oui | Écriture d'essai acceptée, 775 chemins en attente ramenés à 4 | (21 October 2026, 16:44:13 +0200)
+> | Aucune régression | Oui | Client inchangé, un seul service actif ; archives toujours à ~20 s par passe | (21 October 2026, 16:44:13 +0200)
+> | Contrat du skill vert | Non | Rouge à cause des fichiers de l'article modifiés par une autre session | (21 October 2026, 16:44:13 +0200)
