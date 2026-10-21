@@ -6055,3 +6055,64 @@
 > | Recherche de nouveau alimentée | Oui | Écriture d'essai acceptée, 775 chemins en attente ramenés à 4 | (21 October 2026, 16:44:13 +0200)
 > | Aucune régression | Oui | Client inchangé, un seul service actif ; archives toujours à ~20 s par passe | (21 October 2026, 16:44:13 +0200)
 > | Contrat du skill vert | Non | Rouge à cause des fichiers de l'article modifiés par une autre session | (21 October 2026, 16:44:13 +0200)
+
+## 21 October 2026, 18:40:54 +0200 : Prompt
+
+<!-- feedback-event:8db304cd9c9a1c7afabc8a5f713a7bdf80d253ca584b9861842589371c4e112e (21 October 2026, 18:40:54 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (21 October 2026, 18:40:54 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (21 October 2026, 18:40:54 +0200)
+
+> c'était quoi le problème /zenray-simple (21 October 2026, 18:40:54 +0200)
+
+## 21 October 2026, 18:42:12 +0200 : Prompt
+
+<!-- feedback-event:3ab0fb799e5182e5e614a40ea9991fa9743bc650716157197247130a21913a71 (21 October 2026, 18:42:12 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (21 October 2026, 18:42:12 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (21 October 2026, 18:42:12 +0200)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/zenray-simple (21 October 2026, 18:42:12 +0200)
+>
+> # ZenRay Simple (14 October 2026) (21 October 2026, 18:42:12 +0200)
+>
+> Réexprime l'idée, le blocage ou le mécanisme en un seul paragraphe continu et limpide, d'égal à égal, en éliminant toute couche d'abstraction inutile. (14 October 2026) (21 October 2026, 18:42:12 +0200)
+>
+> ## Quand utiliser ce skill (14 October 2026) (21 October 2026, 18:42:12 +0200)
+>
+> - L'utilisateur signale qu'une explication est trop abstraite, dense ou opaque. (14 October 2026) (21 October 2026, 18:42:12 +0200)
+> - L'utilisateur dit « je ne comprends rien », « explique simplement », « sois plus clair » ou « sans jargon ». (14 October 2026) (21 October 2026, 18:42:12 +0200)
+> - L'utilisateur invoque directement zenray-simple ou ZenRay Simple. (14 October 2026) (21 October 2026, 18:42:12 +0200)
+>
+> ## Règles d'exécution (14 October 2026) (21 October 2026, 18:42:12 +0200)
+>
+> - Calibrage sur l'échange en cours : conserver les repères réels du sujet en cours de traitement, sans métaphore scolaire hors-sol ; cibler uniquement la couche technique ou opaque qui posait problème. (14 October 2026) (21 October 2026, 18:42:12 +0200)
+> - Mécanique concrète entre pairs : traduire le jargon par le fonctionnement direct du système (ce que ça reçoit en entrée, ce que ça exécute, ce que ça produit en sortie), sur un ton direct et professionnel sans condescendance. (14 October 2026) (21 October 2026, 18:42:12 +0200)
+> - Format épuré : rédiger la réponse en un seul paragraphe continu, fluide et direct, sans liste à puces, sans tableau, sans préambule et sans conclusion. (14 October 2026) (21 October 2026, 18:42:12 +0200)
+> - Vérifier avant de livrer qu'aucun tiret cadratin ou demi-cadratin n'est présent. (14 October 2026) (21 October 2026, 18:42:12 +0200)
+
+## 21 October 2026, 18:42:20 +0200 : Iteration
+
+<!-- feedback-event:4aa87fe8c8ef5c19183bae3b2155d6490420f58319af52dcc66f1d5ce63e7097 (21 October 2026, 18:42:20 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (21 October 2026, 18:42:20 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (21 October 2026, 18:42:20 +0200)
+
+> Le service qui sauvegarde vos projets dans le cloud notait chaque fichier dans un annuaire de recherche hébergé sur GitHub, et il le faisait en premier, avant de sauvegarder quoi que ce soit. Or cet annuaire avait grossi jusqu'à 105 Go, parce qu'à chaque passage il enregistrait une nouvelle copie de 37 Mo de lui-même même quand rien n'avait changé, et ces copies chiffrées ne se ressemblent jamais assez pour que GitHub les fusionne. GitHub a donc fini par refuser toute écriture sur cet annuaire, la première étape de chaque passage échouait, et comme elle bloquait la suite, aucun projet ne se sauvegardait plus. J'ai séparé les deux : la sauvegarde passe désormais même si l'annuaire refuse, le service ne réécrit plus l'annuaire quand rien n'a changé, et il retient ce qu'il a déjà indexé pour ne plus rouvrir ces 37 Mo inutilement. Puis, comme GitHub refusait même de réduire le dépôt trop gros, nous avons recopié son contenu à l'identique dans un dépôt neuf du même nom et rangé l'ancien de côté. En prime, une sauvegarde de deux fichiers est passée d'environ 80 secondes à une vingtaine. (21 October 2026, 18:42:20 +0200)
+
+## 21 October 2026, 18:51:17 +0200 : Prompt
+
+<!-- feedback-event:ec995f3cb86066ebd234e40b1c67a3c05fe6725fff41f48d85cae66102b28224 (21 October 2026, 18:51:17 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: prompt. (21 October 2026, 18:51:17 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (21 October 2026, 18:51:17 +0200)
+
+> Est ce que ça veut dire qu'un seul repo pouvait grossir au dela de plusieurs centaines de gb ça me semble énorme 37 mo juste pour un index et ne parlons même pas de 100 gb ! (21 October 2026, 18:51:17 +0200)
+
+## 21 October 2026, 18:51:30 +0200 : Iteration
+
+<!-- feedback-event:0662bfba09b36b47b7f8499c1f71329ff9986c2272e205f5c721afebfa3935a0 (21 October 2026, 18:51:30 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (21 October 2026, 18:51:30 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (21 October 2026, 18:51:30 +0200)
+
+> Non, un dépôt ne peut pas grossir sans limite : GitHub a bloqué celui-ci vers 105 Go, ce que l'API affichait avant le refus. GitHub recommande de rester sous quelques Go, et je ne connais pas son seuil exact de blocage. 105 Go reste énorme, et la cause est un défaut de conception de ma part et de celle du service, pas une fatalité de GitHub. (21 October 2026, 18:51:30 +0200)
+>
+> L'index principal est découpé en morceaux de taille raisonnable. À côté, le « delta » stocke les ajouts récents, avec leurs vignettes, en attendant le prochain rebuild complet qui les replierait dans les morceaux. Ce rebuild n'a plus tourné depuis le 19 septembre, donc le delta n'a fait que grossir jusqu'à 37 Mo. À chaque écriture, on enregistrait un fichier chiffré complet de cette taille. Le chiffrement rend deux versions toujours différentes, donc Git ne peut rien partager entre elles et chaque version s'ajoute en entier. Avec environ 9 000 écritures, dont beaucoup ne changeaient rien, on arrive à ces 105 Go. Le calcul brut donnerait plus de 300 Go, mais les premiers deltas étaient bien plus petits. (21 October 2026, 18:51:30 +0200)
+>
+> Mon correctif ne rend pas ce risque nul : une écriture qui change quelque chose coûte toujours 37 Mo dans l'historique. À raison de plusieurs dizaines de vrais ajouts par jour, le dépôt retrouverait un poids énorme en quelques mois. Le vrai remède est de relancer le rebuild complet (`build-search-index.mjs --apply`), qui replie le delta dans les morceaux et le remet à zéro. On pourrait aussi découper le delta en petits fichiers pour qu'une écriture ne coûte que quelques Ko. Voulez-vous que je m'en occupe ? (21 October 2026, 18:51:30 +0200)
