@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-22T11:38:44.499Z",
+ "scannedAt": "2026-10-22T11:41:44.018Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "UV Methodology (fork)",
-   "updatedAt": "2026-10-22T11:38:32.949Z",
-   "bytes": 380174252,
+   "updatedAt": "2026-10-22T11:41:07.063Z",
+   "bytes": 380987670,
    "boundProject": "louisiana-bayou"
   },
   {
