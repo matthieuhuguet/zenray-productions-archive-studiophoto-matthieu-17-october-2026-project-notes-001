@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-23T15:05:30.803Z",
+ "scannedAt": "2026-10-23T15:10:31.452Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -95,8 +95,8 @@
    "provider": "claude",
    "sessionId": "7e127e64-f68b-4058-b7bb-62c6b86d72ba",
    "title": "zenray meeting",
-   "updatedAt": "2026-10-23T15:05:10.313Z",
-   "bytes": 38390,
+   "updatedAt": "2026-10-23T15:10:31.184Z",
+   "bytes": 5848170,
    "boundProject": "zenray-plan"
   },
   {
