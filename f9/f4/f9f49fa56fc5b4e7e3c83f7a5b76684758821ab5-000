@@ -1,22 +1,22 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-23T11:11:28.941Z",
+ "scannedAt": "2026-10-23T11:13:28.843Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 142,
+   "lines": 150,
    "work": 10,
    "prompts": 2,
    "first": "2026-10-17T15:03:22.774Z",
-   "last": "2026-10-23T11:11:15.887Z",
+   "last": "2026-10-23T11:13:18.881Z",
    "strength": "strong",
    "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "studio photos",
-   "updatedAt": "2026-10-23T11:11:16.326Z",
-   "bytes": 35804558,
+   "updatedAt": "2026-10-23T11:13:27.420Z",
+   "bytes": 36017903,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "zenray uv",
-   "updatedAt": "2026-10-23T11:10:24.296Z",
-   "bytes": 40094,
+   "updatedAt": "2026-10-23T11:11:59.272Z",
+   "bytes": 409332988,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -64,7 +64,7 @@
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology (original /mhzenray)",
    "updatedAt": "2026-10-20T19:18:11.914Z",
-   "bytes": 44377,
+   "bytes": 44728,
    "boundProject": null
   },
   {

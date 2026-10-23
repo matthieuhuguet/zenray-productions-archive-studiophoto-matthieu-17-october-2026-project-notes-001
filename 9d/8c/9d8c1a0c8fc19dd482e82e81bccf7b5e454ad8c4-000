@@ -6679,3 +6679,25 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (23 October 2026, 13:10:50 +0200)
 
 > Le découpage retrouve exactement le recadrage mesuré à la main. Je passe à l'initialiseur de projet. (23 October 2026, 13:10:50 +0200)
+
+## 23 October 2026, 13:12:58 +0200 : Standing rule
+
+<!-- feedback-event:5b454f74ba2616bd96058bc97495abbc87fc79ca103dfbdd20ce29916334dcb2 (23 October 2026, 13:12:58 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: rule. (23 October 2026, 13:12:58 +0200)
+
+> Toute photo de profil ou portrait se fait avec le skill zenray-studio-photos (NewStudioPhoto.py, SplitGrid.py, Compose.py, outil à curseurs) ; ZenRay Edit l'appelle par references/StudioPhotos.md. Ne pas refaire l'atelier à la main. (23 October 2026, 13:12:58 +0200)
+
+## 23 October 2026, 13:12:58 +0200 : Log
+
+<!-- feedback-event:3d1210c722481abc6d4b92db8a93e8943e509d6c602ea476ae5de25313c5ae3e (23 October 2026, 13:12:58 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: log. (23 October 2026, 13:12:58 +0200)
+
+> 23 October 2026, demande de Matthieu : créer un skill de tout le protocole de cette conversation (zenray-studio-photos), ajouter l'index mapping dans zenray-edit, tout pousser dans Assets, tout consigner (ctrl-s). Fait : skill créé et testé (écart 0), zenray-edit mis à jour (contrat vert), projets archivés ensuite. (23 October 2026, 13:12:58 +0200)
+
+## 23 October 2026, 13:13:10 +0200 : Iteration
+
+<!-- feedback-event:c805bf4bfe579d0f0dedd291820a41bf83bbf74bf4872a28cb009344bbc5f95f (23 October 2026, 13:13:10 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (23 October 2026, 13:13:10 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (23 October 2026, 13:13:10 +0200)
+
+> Tout est consigné ; je lance maintenant l'archivage dans Assets pour les deux projets et je relis les reçus. (23 October 2026, 13:13:10 +0200)
