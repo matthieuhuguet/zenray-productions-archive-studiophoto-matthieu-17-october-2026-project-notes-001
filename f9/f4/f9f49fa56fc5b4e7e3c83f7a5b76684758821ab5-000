@@ -1,22 +1,22 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-22T22:30:47.593Z",
+ "scannedAt": "2026-10-23T11:11:28.941Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 110,
-   "work": 7,
+   "lines": 142,
+   "work": 10,
    "prompts": 2,
    "first": "2026-10-17T15:03:22.774Z",
-   "last": "2026-10-21T10:52:06.768Z",
+   "last": "2026-10-23T11:11:15.887Z",
    "strength": "strong",
    "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
-   "title": "StudioPhoto Enhancing Assets",
-   "updatedAt": "2026-10-21T17:14:21.465Z",
-   "bytes": 38528,
+   "title": "studio photos",
+   "updatedAt": "2026-10-23T11:11:16.326Z",
+   "bytes": 35804558,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
@@ -37,18 +37,18 @@
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 81,
+   "lines": 83,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-18T08:34:45.394Z",
-   "last": "2026-10-22T17:00:52.420Z",
+   "last": "2026-10-23T11:09:29.698Z",
    "strength": "weak",
    "conversationId": "claude:beb9938e-4434-4925-8d13-137bb7940fc0",
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
-   "title": "UV Methodology (fork)",
-   "updatedAt": "2026-10-22T21:40:46.245Z",
-   "bytes": 40555,
+   "title": "zenray uv",
+   "updatedAt": "2026-10-23T11:10:24.296Z",
+   "bytes": 40094,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -64,7 +64,7 @@
    "sessionId": "a3f20b1d-27ed-48e1-a0d1-5fe182c0e423",
    "title": "UV Methodology (original /mhzenray)",
    "updatedAt": "2026-10-20T19:18:11.914Z",
-   "bytes": 45538,
+   "bytes": 44377,
    "boundProject": null
   },
   {
@@ -80,7 +80,7 @@
    "sessionId": "c599a27c-4ba9-4fbc-b29f-9cf95d1bbcb6",
    "title": "Iphone Photos",
    "updatedAt": "2026-10-22T22:30:23.100Z",
-   "bytes": 38258,
+   "bytes": 38259,
    "boundProject": null
   },
   {
@@ -94,9 +94,41 @@
    "conversationId": "claude:d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
-   "title": "3 motion design and editing video",
+   "title": "zenray motion design",
    "updatedAt": "2026-10-22T22:09:46.176Z",
-   "bytes": 22339,
+   "bytes": 22379,
+   "boundProject": null
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T11:00:00.778Z",
+   "last": "2026-10-23T11:00:00.778Z",
+   "strength": "weak",
+   "conversationId": "claude:11264bd4-8a19-4e76-b9be-dc012304e419",
+   "provider": "claude",
+   "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
+   "title": "zenray knowledge",
+   "updatedAt": "2026-10-23T11:03:11.690Z",
+   "bytes": 2125939,
+   "boundProject": null
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-23T10:04:34.153Z",
+   "last": "2026-10-23T10:04:34.153Z",
+   "strength": "weak",
+   "conversationId": "claude:743321c6-ffde-4e63-954e-b4f593d6507b",
+   "provider": "claude",
+   "sessionId": "743321c6-ffde-4e63-954e-b4f593d6507b",
+   "title": "Écran blanc sur Chrome",
+   "updatedAt": "2026-10-23T10:09:35.038Z",
+   "bytes": 38091,
    "boundProject": null
   },
   {
@@ -112,7 +144,7 @@
    "sessionId": "e404b8fe-5771-41e1-b7bb-5f6111652bf6",
    "title": "CONSIGNER LE SHARINGAN",
    "updatedAt": "2026-10-21T10:06:45.761Z",
-   "bytes": 33539,
+   "bytes": 33540,
    "boundProject": "conversation-claude-f636b9060f04a23ee355c148"
   },
   {
@@ -176,7 +208,7 @@
    "sessionId": "8ef64432-15df-4091-bb15-041c25f2482d",
    "title": "vue arch 6 views",
    "updatedAt": "2026-10-19T10:09:47.194Z",
-   "bytes": 36574,
+   "bytes": 36575,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -192,7 +224,7 @@
    "sessionId": "7c5566dd-4ce2-4ed7-9035-5e45ce611a65",
    "title": "Win Without Pitching Manifesto traduction",
    "updatedAt": "2026-10-17T21:13:19.044Z",
-   "bytes": 36590,
+   "bytes": 36591,
    "boundProject": null
   },
   {
@@ -224,7 +256,7 @@
    "sessionId": "459b59c9-87e8-4e32-8bd7-b1348b362772",
    "title": "Vérifier upload et renommage fichiers",
    "updatedAt": "2026-10-17T20:32:28.352Z",
-   "bytes": 36549,
+   "bytes": 36550,
    "boundProject": null
   }
  ]
