@@ -1,22 +1,22 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-23T11:18:33.683Z",
+ "scannedAt": "2026-10-23T11:24:29.667Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 150,
+   "lines": 151,
    "work": 10,
    "prompts": 2,
    "first": "2026-10-17T15:03:22.774Z",
-   "last": "2026-10-23T11:13:18.881Z",
+   "last": "2026-10-23T11:16:36.431Z",
    "strength": "strong",
    "conversationId": "claude:2ce02bbc-dad5-488e-9ffc-51313c488339",
    "provider": "claude",
    "sessionId": "2ce02bbc-dad5-488e-9ffc-51313c488339",
    "title": "studio photos",
-   "updatedAt": "2026-10-23T11:13:41.425Z",
-   "bytes": 36035850,
+   "updatedAt": "2026-10-23T11:17:19.759Z",
+   "bytes": 38507,
    "boundProject": "studiophoto-matthieu-17-october-2026"
   },
   {
@@ -47,8 +47,8 @@
    "provider": "claude",
    "sessionId": "beb9938e-4434-4925-8d13-137bb7940fc0",
    "title": "zenray uv",
-   "updatedAt": "2026-10-23T11:11:59.272Z",
-   "bytes": 409332988,
+   "updatedAt": "2026-10-23T11:23:33.797Z",
+   "bytes": 409379618,
    "boundProject": "louisiana-bayou"
   },
   {
@@ -111,8 +111,8 @@
    "provider": "claude",
    "sessionId": "11264bd4-8a19-4e76-b9be-dc012304e419",
    "title": "zenray knowledge",
-   "updatedAt": "2026-10-23T11:03:11.690Z",
-   "bytes": 2125939,
+   "updatedAt": "2026-10-23T11:20:29.198Z",
+   "bytes": 38388,
    "boundProject": null
   },
   {
