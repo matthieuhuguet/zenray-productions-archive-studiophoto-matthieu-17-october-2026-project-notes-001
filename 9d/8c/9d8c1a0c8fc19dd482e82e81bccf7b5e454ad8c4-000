@@ -6701,3 +6701,39 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (23 October 2026, 13:13:10 +0200)
 
 > Tout est consigné ; je lance maintenant l'archivage dans Assets pour les deux projets et je relis les reçus. (23 October 2026, 13:13:10 +0200)
+
+## 23 October 2026, 13:16:32 +0200 : Iteration
+
+<!-- feedback-event:e26173f97ed493d43d70248213934a1815597482daa74dd9d81f5ce9a5ddecc9 (23 October 2026, 13:16:32 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (23 October 2026, 13:16:32 +0200)
+- Source: checkpoint:claude:2ce02bbc-dad5-488e-9ffc-51313c488339. (23 October 2026, 13:16:32 +0200)
+
+> Skill zenray-studio-photos cree et teste (atelier neuf: ecart 0 sur le rendu radial et le masque; SplitGrid identique octet a la decoupe mesuree), index mapping ajoute a zenray-edit (contrat vert), degrade radial ffa000 vers ff5c02 rendu sur la photo 10, archive Assets: studiophoto 29/29 et zenray-edit 8/8 recus identiques et relus sur GitHub. Prochain: NewStudioPhoto.py pour la prochaine photo de profil. (23 October 2026, 13:16:32 +0200)
+
+## 23 October 2026, 13:17:16 +0200 : Iteration
+
+<!-- feedback-event:3aa21e97a19b20909088ee1095ee14ed324936b5f4fe989156f29658b8ecd373 (23 October 2026, 13:17:16 +0200) -->
+- Project: studiophoto-matthieu-17-october-2026; kind: iteration. (23 October 2026, 13:17:16 +0200)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/2ce02bbc-dad5-488e-9ffc-51313c488339.jsonl. (23 October 2026, 13:17:16 +0200)
+
+> Le skill `zenray-studio-photos` est créé et testé, et ZenRay Edit l'appelle désormais par son index mapping. Pour la prochaine photo de profil, une commande ouvre un atelier complet : (23 October 2026, 13:17:16 +0200)
+>
+> ```bash (23 October 2026, 13:17:16 +0200)
+> python3 /Users/zenray/.claude/skills/zenray-studio-photos/scripts/NewStudioPhoto.py <atelier> <photo> --ids 1 (23 October 2026, 13:17:16 +0200)
+> ``` (23 October 2026, 13:17:16 +0200)
+>
+> - **Contenu du skill** (`/Users/zenray/.claude/skills/zenray-studio-photos/`) : cette commande, `SplitGrid.py` pour découper une planche de portraits, `Compose.py` généralisé (fonds gris, couleur unie, dégradé radial), le gabarit de l'outil à curseurs, `references/Protocol.md` (tout le protocole de la conversation, mesures et pièges) et le prompt de génération d'image. (23 October 2026, 13:17:16 +0200)
+> - **ZenRay Edit** : `/Users/zenray/.claude/skills/zenray-edit/references/StudioPhotos.md` contient la carte des fichiers, des commandes et des valeurs à connaître. Une ligne a été ajoutée au tableau des modes, le bundle est réenregistré et le contrat est vert (15 983 octets sur 16 000 autorisés). (23 October 2026, 13:17:16 +0200)
+> - **Dégradé radial** : le rendu sur la photo 10 est rangé dans le registre des designs. (23 October 2026, 13:17:16 +0200)
+> - **Consignation (ctrl-s)** : `Project1.md`, une règle dans `Rules.md`, le feedback, la mémoire auto, le journal global et un checkpoint Assets sont écrits. Le commit Memory est poussé. (23 October 2026, 13:17:16 +0200)
+> - **Cloud** : le dossier du skill est ajouté comme source du projet studiophoto, et tout est archivé. (23 October 2026, 13:17:16 +0200)
+>
+> Ce que je n'ai pas testé : `NewStudioPhoto.py` compile `Segment` et `Face` avec `swiftc`, donc il faut les outils Xcode en ligne de commande, vérifiés seulement sur ce Mac. La typographie embarquée dans l'outil date encore du 18 octobre (Medium), alors que la règle du 21 octobre donne Anthropic Serif Regular pour le corps. Je l'ai notée dans le skill. (23 October 2026, 13:17:16 +0200)
+>
+> | Ce que vous vouliez | Fait ? | Comment je le sais | (23 October 2026, 13:17:16 +0200)
+> |---|---|---| (23 October 2026, 13:17:16 +0200)
+> | Skill de tout le protocole | Oui | Atelier neuf créé par le skill : rendu radial et masque identiques à l'original (écart 0 sur 255) | (23 October 2026, 13:17:16 +0200)
+> | Découpe de planche fiable | Oui | `SplitGrid.py` égale la découpe mesurée à la main, octet pour octet (624 × 622) | (23 October 2026, 13:17:16 +0200)
+> | Index mapping dans zenray-edit | Oui | `StudioPhotos.md` ajouté, `CheckContract.py` ok | (23 October 2026, 13:17:16 +0200)
+> | Tout dans Assets | Oui | Reçus SHA-256 identiques et relus sur GitHub : studiophoto 29 sur 29, zenray-edit 8 sur 8, dont les 18 fichiers du skill | (23 October 2026, 13:17:16 +0200)
+> | Tout consigné (ctrl-s) | Oui | Project1, Rules, feedback, journal global et commit Memory écrits | (23 October 2026, 13:17:16 +0200)
