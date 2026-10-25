@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-25T17:30:33.569Z",
+ "scannedAt": "2026-10-25T17:31:03.711Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -207,8 +207,8 @@
    "provider": "claude",
    "sessionId": "b8e43d99-5824-4ddc-8444-a984b5743a04",
    "title": "zenray sfx",
-   "updatedAt": "2026-10-25T17:27:35.947Z",
-   "bytes": 11973635,
+   "updatedAt": "2026-10-25T17:27:55.530Z",
+   "bytes": 38364,
    "boundProject": null
   },
   {
