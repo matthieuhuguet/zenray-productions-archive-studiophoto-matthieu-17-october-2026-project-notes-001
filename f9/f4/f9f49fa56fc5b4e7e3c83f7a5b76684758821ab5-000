@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-25T18:08:51.226Z",
+ "scannedAt": "2026-10-25T18:11:51.234Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -79,8 +79,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-25T18:08:42.744Z",
-   "bytes": 46965578,
+   "updatedAt": "2026-10-25T18:11:45.285Z",
+   "bytes": 47565162,
    "boundProject": "zenray-meshes"
   },
   {
@@ -223,8 +223,8 @@
    "provider": "claude",
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
-   "updatedAt": "2026-10-25T17:58:49.325Z",
-   "bytes": 38231,
+   "updatedAt": "2026-10-25T18:10:47.733Z",
+   "bytes": 38457,
    "boundProject": "zenray-dictate"
   },
   {
