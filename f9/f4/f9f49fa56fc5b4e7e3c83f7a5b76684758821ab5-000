@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-26T12:03:24.801Z",
+ "scannedAt": "2026-10-26T12:14:17.131Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -63,8 +63,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T12:03:23.292Z",
-   "bytes": 385767465,
+   "updatedAt": "2026-10-26T12:08:49.159Z",
+   "bytes": 386186010,
    "boundProject": "zenray-meshes"
   },
   {
