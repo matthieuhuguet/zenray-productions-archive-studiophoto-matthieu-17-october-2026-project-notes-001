@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-26T08:48:31.154Z",
+ "scannedAt": "2026-10-26T09:12:19.128Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 61,
+   "lines": 65,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T08:38:01.789Z",
+   "last": "2026-10-26T09:02:43.896Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T08:48:27.129Z",
-   "bytes": 373128067,
+   "updatedAt": "2026-10-26T09:12:00.318Z",
+   "bytes": 377350793,
    "boundProject": "zenray-meshes"
   },
   {
@@ -95,8 +95,8 @@
    "provider": "claude",
    "sessionId": "d2f26016-25dd-4bcc-a6d8-122d50d3f383",
    "title": "zenray motion design",
-   "updatedAt": "2026-10-26T08:35:20.779Z",
-   "bytes": 22405,
+   "updatedAt": "2026-10-26T09:11:05.796Z",
+   "bytes": 526405027,
    "boundProject": null
   },
   {
@@ -200,6 +200,22 @@
    "lines": 3,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-26T08:47:05.520Z",
+   "last": "2026-10-26T08:52:36.506Z",
+   "strength": "weak",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "zenray freelance",
+   "updatedAt": "2026-10-26T09:12:17.925Z",
+   "bytes": 3935707,
+   "boundProject": null
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 3,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-25T14:08:33.899Z",
    "last": "2026-10-25T15:32:57.355Z",
    "strength": "weak",
@@ -216,22 +232,6 @@
    "lines": 2,
    "work": 0,
    "prompts": 0,
-   "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-26T08:47:05.520Z",
-   "strength": "weak",
-   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "provider": "claude",
-   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
-   "title": "Zenray Freelance interface redesign",
-   "updatedAt": "2026-10-26T08:48:21.903Z",
-   "bytes": 2137186,
-   "boundProject": null
-  },
-  {
-   "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
    "first": "2026-10-26T08:47:35.579Z",
    "last": "2026-10-26T08:47:35.579Z",
    "strength": "weak",
@@ -239,8 +239,8 @@
    "provider": "claude",
    "sessionId": "1558c782-52c7-4beb-aab4-1d4a8cf7a556",
    "title": "Arbre méthodologique Zenray",
-   "updatedAt": "2026-10-26T08:48:20.514Z",
-   "bytes": 38272,
+   "updatedAt": "2026-10-26T08:49:53.379Z",
+   "bytes": 38296,
    "boundProject": null
   },
   {
