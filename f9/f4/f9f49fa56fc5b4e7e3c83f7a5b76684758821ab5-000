@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-26T10:21:57.490Z",
+ "scannedAt": "2026-10-26T10:33:38.820Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -197,18 +197,34 @@
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 3,
+   "lines": 5,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T16:05:21.061Z",
+   "last": "2026-10-26T10:32:48.603Z",
+   "strength": "weak",
+   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "provider": "claude",
+   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "title": "speech to text claude",
+   "updatedAt": "2026-10-26T10:33:38.108Z",
+   "bytes": 13402098,
+   "boundProject": "zenray-dictate"
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 4,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-26T08:47:05.520Z",
-   "last": "2026-10-26T08:52:36.506Z",
+   "last": "2026-10-26T10:18:29.109Z",
    "strength": "weak",
    "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-26T10:17:36.376Z",
-   "bytes": 8331489,
+   "updatedAt": "2026-10-26T10:28:36.828Z",
+   "bytes": 38486,
    "boundProject": null
   },
   {
@@ -226,22 +242,6 @@
    "updatedAt": "2026-10-25T18:19:59.685Z",
    "bytes": 38324,
    "boundProject": "zenray-sfx-25-october-2026"
-  },
-  {
-   "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-25T16:05:21.061Z",
-   "last": "2026-10-25T16:05:21.061Z",
-   "strength": "weak",
-   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "provider": "claude",
-   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "title": "speech to text claude",
-   "updatedAt": "2026-10-26T10:17:35.937Z",
-   "bytes": 12757974,
-   "boundProject": "zenray-dictate"
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
