@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-26T09:58:32.425Z",
+ "scannedAt": "2026-10-26T10:11:19.762Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -207,8 +207,8 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-26T09:54:24.493Z",
-   "bytes": 38425,
+   "updatedAt": "2026-10-26T10:06:09.864Z",
+   "bytes": 38410,
    "boundProject": null
   },
   {
@@ -226,6 +226,22 @@
    "updatedAt": "2026-10-25T18:19:59.685Z",
    "bytes": 38324,
    "boundProject": "zenray-sfx-25-october-2026"
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-25T16:05:21.061Z",
+   "last": "2026-10-25T16:05:21.061Z",
+   "strength": "weak",
+   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "provider": "claude",
+   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
+   "title": "speech to text claude",
+   "updatedAt": "2026-10-26T10:10:44.488Z",
+   "bytes": 12377136,
+   "boundProject": "zenray-dictate"
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -274,22 +290,6 @@
    "updatedAt": "2026-10-26T08:49:53.379Z",
    "bytes": 38296,
    "boundProject": null
-  },
-  {
-   "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 2,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-25T16:05:21.061Z",
-   "last": "2026-10-25T16:05:21.061Z",
-   "strength": "weak",
-   "conversationId": "claude:7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "provider": "claude",
-   "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
-   "title": "speech to text claude",
-   "updatedAt": "2026-10-25T19:10:35.216Z",
-   "bytes": 38407,
-   "boundProject": "zenray-dictate"
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
