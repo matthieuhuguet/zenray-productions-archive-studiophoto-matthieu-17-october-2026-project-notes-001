@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-26T08:40:31.193Z",
+ "scannedAt": "2026-10-26T08:48:31.154Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -63,8 +63,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-26T08:40:23.126Z",
-   "bytes": 371780144,
+   "updatedAt": "2026-10-26T08:48:27.129Z",
+   "bytes": 373128067,
    "boundProject": "zenray-meshes"
   },
   {
@@ -216,6 +216,38 @@
    "lines": 2,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-26T08:47:05.520Z",
+   "last": "2026-10-26T08:47:05.520Z",
+   "strength": "weak",
+   "conversationId": "claude:38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "provider": "claude",
+   "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
+   "title": "Zenray Freelance interface redesign",
+   "updatedAt": "2026-10-26T08:48:21.903Z",
+   "bytes": 2137186,
+   "boundProject": null
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-10-26T08:47:35.579Z",
+   "last": "2026-10-26T08:47:35.579Z",
+   "strength": "weak",
+   "conversationId": "claude:1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "provider": "claude",
+   "sessionId": "1558c782-52c7-4beb-aab4-1d4a8cf7a556",
+   "title": "Arbre méthodologique Zenray",
+   "updatedAt": "2026-10-26T08:48:20.514Z",
+   "bytes": 38272,
+   "boundProject": null
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 2,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-25T16:05:21.061Z",
    "last": "2026-10-25T16:05:21.061Z",
    "strength": "weak",
@@ -224,7 +256,7 @@
    "sessionId": "7b4fce4a-5400-4962-a3d3-28b11fde651d",
    "title": "speech to text claude",
    "updatedAt": "2026-10-25T19:10:35.216Z",
-   "bytes": 38406,
+   "bytes": 38407,
    "boundProject": "zenray-dictate"
   },
   {
