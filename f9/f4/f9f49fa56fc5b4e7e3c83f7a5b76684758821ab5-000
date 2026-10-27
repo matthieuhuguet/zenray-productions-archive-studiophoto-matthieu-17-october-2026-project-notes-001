@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-10-27T10:57:22.266Z",
+ "scannedAt": "2026-10-27T16:58:27.724Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -53,18 +53,18 @@
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 77,
+   "lines": 79,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
-   "last": "2026-10-26T22:52:20.018Z",
+   "last": "2026-10-27T16:57:41.462Z",
    "strength": "weak",
    "conversationId": "claude:09d15ec8-88ad-4965-a2f0-80b68515e880",
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-10-27T03:06:47.463Z",
-   "bytes": 482345180,
+   "updatedAt": "2026-10-27T16:57:53.586Z",
+   "bytes": 38028,
    "boundProject": "zenray-meshes"
   },
   {
@@ -175,8 +175,8 @@
    "provider": "claude",
    "sessionId": "38575095-b716-47ed-af1d-bf22b8ff30eb",
    "title": "zenray freelance",
-   "updatedAt": "2026-10-26T14:05:51.232Z",
-   "bytes": 38418,
+   "updatedAt": "2026-10-27T16:58:12.132Z",
+   "bytes": 22382687,
    "boundProject": "zenray-calendar-plan-23-october-2026"
   },
   {
@@ -408,6 +408,22 @@
    "lines": 1,
    "work": 0,
    "prompts": 0,
+   "first": "2026-10-27T12:03:47.438Z",
+   "last": "2026-10-27T12:03:47.438Z",
+   "strength": "weak",
+   "conversationId": "codex:01a17d3d-b439-7f01-bbb4-7ff8aff96cab",
+   "provider": "codex",
+   "sessionId": "01a17d3d-b439-7f01-bbb4-7ff8aff96cab",
+   "title": "Conversation codex 01a17d3d",
+   "updatedAt": "2026-10-27T13:08:57.305Z",
+   "bytes": 14959496,
+   "boundProject": "zenray-meshes"
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 1,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-20T16:30:50.208Z",
    "last": "2026-10-20T16:30:50.208Z",
    "strength": "weak",
@@ -434,22 +450,6 @@
    "updatedAt": "2026-10-19T22:41:15.710Z",
    "bytes": 36657,
    "boundProject": null
-  },
-  {
-   "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 1,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-10-18T22:26:45.234Z",
-   "last": "2026-10-18T22:26:45.234Z",
-   "strength": "weak",
-   "conversationId": "codex:01a1511f-9f4c-7410-a6eb-d2e93353fa70",
-   "provider": "codex",
-   "sessionId": "01a1511f-9f4c-7410-a6eb-d2e93353fa70",
-   "title": "Conversation codex 01a1511f",
-   "updatedAt": "2026-10-19T11:07:33.061Z",
-   "bytes": 10359412,
-   "boundProject": "zenray-progress"
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
