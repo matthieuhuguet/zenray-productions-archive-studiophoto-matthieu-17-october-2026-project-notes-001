@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-11-02T21:42:23.395Z",
+ "scannedAt": "2026-11-03T12:12:24.370Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -69,7 +69,7 @@
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 131,
+   "lines": 132,
    "work": 0,
    "prompts": 0,
    "first": "2026-10-25T14:43:32.510Z",
@@ -79,8 +79,8 @@
    "provider": "claude",
    "sessionId": "09d15ec8-88ad-4965-a2f0-80b68515e880",
    "title": "zenray meshes",
-   "updatedAt": "2026-11-02T21:35:39.435Z",
-   "bytes": 1125467971,
+   "updatedAt": "2026-11-02T21:58:50.087Z",
+   "bytes": 44902,
    "boundProject": "zenray-meshes"
   },
   {
@@ -152,6 +152,22 @@
    "lines": 9,
    "work": 0,
    "prompts": 0,
+   "first": "2026-11-02T14:52:10.940Z",
+   "last": "2026-11-02T21:39:30.931Z",
+   "strength": "weak",
+   "conversationId": "claude:fd247c15-80dd-4c74-93af-112af60fa28e",
+   "provider": "claude",
+   "sessionId": "fd247c15-80dd-4c74-93af-112af60fa28e",
+   "title": "zenray height",
+   "updatedAt": "2026-11-02T22:25:37.927Z",
+   "bytes": 37947,
+   "boundProject": "alien-skin-2-november-2026"
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 9,
+   "work": 0,
+   "prompts": 0,
    "first": "2026-10-25T14:08:33.899Z",
    "last": "2026-10-27T22:36:50.387Z",
    "strength": "weak",
@@ -194,22 +210,6 @@
    "updatedAt": "2026-10-25T11:34:49.680Z",
    "bytes": 38213,
    "boundProject": "zenray-calendar-plan-23-october-2026"
-  },
-  {
-   "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 8,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-02T14:52:10.940Z",
-   "last": "2026-11-02T21:39:30.931Z",
-   "strength": "weak",
-   "conversationId": "claude:fd247c15-80dd-4c74-93af-112af60fa28e",
-   "provider": "claude",
-   "sessionId": "fd247c15-80dd-4c74-93af-112af60fa28e",
-   "title": "zenray height",
-   "updatedAt": "2026-11-02T21:37:20.080Z",
-   "bytes": 115391768,
-   "boundProject": "alien-skin-2-november-2026"
   },
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
