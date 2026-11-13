@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "studiophoto-matthieu-17-october-2026",
- "scannedAt": "2026-11-13T07:20:38.607Z",
+ "scannedAt": "2026-11-13T13:21:41.433Z",
  "conversations": [
   {
    "projectId": "studiophoto-matthieu-17-october-2026",
@@ -64,7 +64,7 @@
    "sessionId": "0611e96b-26b2-4d65-a9e1-cb913738cca3",
    "title": "zenray meshes v5",
    "updatedAt": "2026-11-12T16:31:13.514Z",
-   "bytes": 305786,
+   "bytes": 305749,
    "boundProject": "zenray-meshes"
   },
   {
@@ -81,6 +81,22 @@
    "title": "UV Methodology (original /mhzenray)",
    "updatedAt": "2026-10-20T19:18:11.914Z",
    "bytes": 41538,
+   "boundProject": null
+  },
+  {
+   "projectId": "studiophoto-matthieu-17-october-2026",
+   "lines": 18,
+   "work": 0,
+   "prompts": 0,
+   "first": "2026-11-12T11:07:01.700Z",
+   "last": "2026-11-13T10:02:42.883Z",
+   "strength": "weak",
+   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "provider": "claude",
+   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
+   "title": "guides jaune et turquoise",
+   "updatedAt": "2026-11-13T13:14:13.436Z",
+   "bytes": 33400,
    "boundProject": null
   },
   {
@@ -129,22 +145,6 @@
    "title": "Camion Gnomon reproduit dans Houdini",
    "updatedAt": "2026-11-05T15:32:18.428Z",
    "bytes": 41473,
-   "boundProject": null
-  },
-  {
-   "projectId": "studiophoto-matthieu-17-october-2026",
-   "lines": 12,
-   "work": 0,
-   "prompts": 0,
-   "first": "2026-11-12T11:07:01.700Z",
-   "last": "2026-11-13T06:11:10.289Z",
-   "strength": "weak",
-   "conversationId": "claude:48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "provider": "claude",
-   "sessionId": "48664bcf-655d-4f1c-8f4c-981e576050ff",
-   "title": "guides jaune et turquoise",
-   "updatedAt": "2026-11-13T07:19:24.086Z",
-   "bytes": 283195,
    "boundProject": null
   },
   {
